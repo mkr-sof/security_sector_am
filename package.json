@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/mkr-sof/GPT-3.git",
+  "author": "mkr-sof <mkrtchyan_sofia@mail.ru>",
+  "license": "MIT"
 }
