@@ -2,17 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74716eda-f8c4-4b0f-8be7-806fe2b80aee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/GPT_3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/article/Article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/article/article.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/brand/Brand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/brand/brand.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cta/CTA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cta/cta.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/feature/Feature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/feature/feature.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/blog/Blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/blog/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/features/Features.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/features/featutes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/footer/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/header/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/possibility/Possibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/possibility/possibility.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/what/What.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/what/what.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2YPovoQvvZBu7VPlIJrApuaQr0F" />
   <component name="ProjectViewState">
@@ -24,8 +68,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Sofya/Downloads/live_templates.jar",
+    "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "settings.editor.selected.configurable": "Errors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -37,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700436812128</updated>
-      <workItem from="1700436813796" duration="321000" />
+      <workItem from="1700436813796" duration="6101000" />
     </task>
     <servers />
   </component>
