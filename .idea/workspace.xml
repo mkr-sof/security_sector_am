@@ -2,30 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74716eda-f8c4-4b0f-8be7-806fe2b80aee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/bosch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/cisco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/hikVision.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/security.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/brand/imports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/brandPages/bosch/BoschComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/brandPages/cicso/CiscoComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/brandPages/hikVision/HikVisionComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/brandPages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assets/ai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assets/atlassian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assets/blog01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assets/blog02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assets/blog03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assets/blog04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assets/blog05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assets/dropbox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assets/google.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assets/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assets/people.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assets/possibility.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assets/shopify.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assets/slack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/brand/Brand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/brand/Brand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/brand/brand.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/brand/brand.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/blog/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/blog/Blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -57,7 +49,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Worckspace/gpt_3/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Worckspace/gpt_3/src/assets&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
@@ -66,11 +58,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Worckspace\gpt_3\src\assets" />
       <recent name="D:\Worckspace\gpt_3\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Worckspace\gpt_3\src" />
-      <recent name="D:\Worckspace\gpt_3\src\fonts" />
+      <recent name="D:\Worckspace\gpt_3\src\components\pages\brandPages\bosch" />
+      <recent name="D:\Worckspace\gpt_3\src\components\pages\brandPages\cicso" />
+      <recent name="D:\Worckspace\gpt_3\src\components\pages\brandPages\hikVision" />
+      <recent name="D:\Worckspace\gpt_3\src\components\brand" />
+      <recent name="D:\Worckspace\gpt_3\src\assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,7 +80,11 @@
       <workItem from="1700436813796" duration="7993000" />
       <workItem from="1700555863741" duration="4528000" />
       <workItem from="1700760196692" duration="9443000" />
-      <workItem from="1700833946070" duration="3854000" />
+      <workItem from="1700833946070" duration="5317000" />
+      <workItem from="1700851731951" duration="362000" />
+      <workItem from="1701077239796" duration="3740000" />
+      <workItem from="1701123729472" duration="2629000" />
+      <workItem from="1701197095061" duration="3266000" />
     </task>
     <servers />
   </component>

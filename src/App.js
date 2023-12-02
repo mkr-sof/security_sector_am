@@ -1,27 +1,27 @@
 import React from 'react';
-
-import { Article, Brand, CTA, Feature, Navbar } from "./components";
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Article, Brand, CTA, Feature, Navbar } from './components';
 import { Blog, Footer, What, Features, Header, Possibility } from './containers';
 import './app.css';
 
-
 const App = () => {
     return (
-        <div className="App">
-            <div className="gradient__bg">
-                <Navbar />
-                <Header />
+        <Router>
+            <div className="App">
+                <div className="gradient__bg">
+                    <Navbar />
+                    <Header />
+                </div>
 
+                <Brand />
+                <What />
+                <Features />
+                <Possibility />
+                <CTA />
+                <Blog />
+                <Footer />
             </div>
-            <Brand />
-            <What />
-            <Features />
-            <Possibility />
-            <CTA />
-            <Blog />
-            <Footer />
-
-        </div>
+        </Router>
     );
 };
 
