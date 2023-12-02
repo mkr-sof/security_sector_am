@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74716eda-f8c4-4b0f-8be7-806fe2b80aee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/bosch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/cisco.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/hikVision.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/security.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/brand/imports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/brandPages/bosch/BoschComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/brandPages/cicso/CiscoComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/brandPages/hikVision/HikVisionComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/brandPages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/brand/Brand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/brand/Brand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/brand/brand.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/brand/brand.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/blog/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/blog/Blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="74716eda-f8c4-4b0f-8be7-806fe2b80aee" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +67,7 @@
       <workItem from="1701077239796" duration="3740000" />
       <workItem from="1701123729472" duration="2629000" />
       <workItem from="1701197095061" duration="3266000" />
+      <workItem from="1701521153239" duration="225000" />
     </task>
     <servers />
   </component>
