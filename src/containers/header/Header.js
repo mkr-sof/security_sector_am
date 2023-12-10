@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div className="gpt3__header section__padding" id="home">
             <div className="gpt3__header-content">
-                <h1 className="gradient__text">Welcome to the Security Section - Where Your Security is Our
+                <h1 className="gradient__text">Welcome to the Security Sector - Where Your Security is Our
                     Priority</h1>
                 <p>At the Security Section, you're not just a client; you're a valued member of our security family.
                     Explore our range of services designed to meet your specific requirements and discover the

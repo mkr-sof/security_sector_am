@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74716eda-f8c4-4b0f-8be7-806fe2b80aee" name="Changes" comment="" />
+    <list default="true" id="74716eda-f8c4-4b0f-8be7-806fe2b80aee" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/feature/Feature.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/feature/Feature.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/feature/feature.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/feature/feature.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/what/What.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/what/What.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/what/what.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/what/what.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +76,8 @@
       <workItem from="1701123729472" duration="2629000" />
       <workItem from="1701197095061" duration="3266000" />
       <workItem from="1701521153239" duration="225000" />
+      <workItem from="1702026366233" duration="20938000" />
+      <workItem from="1702217966904" duration="687000" />
     </task>
     <servers />
   </component>
