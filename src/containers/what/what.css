@@ -57,8 +57,8 @@
 .gpt3__whatWeDo-container{
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-between;*/
     flex-direction: row;
+    /*justify-content: space-between;*/
     /*gap: 1rem;*/
 
     /*display: grid;*/
@@ -66,6 +66,24 @@
     /*grid-template-columns: repeat(3, 312px);*/
 
     margin-top: 2rem;
+}
+/*.gpt3__whatWeDo-container {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-between;*/
+/*    margin-top: 2rem;*/
+/*}*/
+
+/*.gpt3__features-container__feature {*/
+/*    width: calc(33.33% - 1rem);*/
+/*    margin-bottom: 1rem;*/
+/*    min-height: 200px; !* Задайте фиксированную высоту, например, 200px *!*/
+/*    box-sizing: border-box; !* Учтите границы и отступы в общей высоте блока *!*/
+/*}*/
+
+.gpt3__features-container__feature {
+    /*width: calc(33.33% - 1rem); !* или другой расчет ширины в зависимости от ваших предпочтений *!*/
+    /*margin-bottom: 1rem; !* или другой интервал между блоками в зависимости от ваших предпочтений *!*/
 }
 .gpt3__features-container__feature{
     /*flex-basis: 0;*/
@@ -99,7 +117,7 @@
         margin-bottom: 1rem;
     }
     .gpt3__features-container__feature {
-        flex: 1 1 calc(50% - 1rem); /* Two features per row on smaller screens */
+        /*flex: 1 1 calc(50% - 1rem); !* Two features per row on smaller screens *!*/
     }
 }
 @media screen and(max-width: 650px){

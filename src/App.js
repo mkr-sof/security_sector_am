@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { Article, Brand, CTA, Feature, Navbar } from './components';
-import { Blog, Footer, What, Features, Header, Possibility } from './containers';
+import {BrowserRouter as Router} from 'react-router-dom';
+import {Article, Brand, CTA, Feature, Navbar} from './components';
+import {Blog, Footer, What, Features, Header, Possibility} from './containers';
 import './app.css';
 
 const App = () => {
@@ -9,17 +9,18 @@ const App = () => {
         <Router>
             <div className="App">
                 <div className="gradient__bg">
-                    <Navbar />
-                    <Header />
+                    <Navbar/>
+                    <Header/>
+
                 </div>
 
-                <Brand />
-                <What />
-                <Features />
-                <Possibility />
-                <CTA />
-                <Blog />
-                <Footer />
+                <Brand/>
+                <What/>
+                <Features/>
+                <Possibility/>
+                <CTA/>
+                <Blog/>
+                <Footer/>
             </div>
         </Router>
     );
