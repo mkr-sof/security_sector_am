@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74716eda-f8c4-4b0f-8be7-806fe2b80aee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/feature/feature.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/feature/feature.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/features/Features.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/features/Features.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/features/featutes.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/features/featutes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/what/What.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/what/What.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/what/what.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/what/what.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +78,7 @@
       <workItem from="1703701879364" duration="4348000" />
       <workItem from="1703749409784" duration="6689000" />
       <workItem from="1703958113051" duration="1269000" />
-      <workItem from="1704821591269" duration="1542000" />
+      <workItem from="1704821591269" duration="4287000" />
     </task>
     <servers />
   </component>
