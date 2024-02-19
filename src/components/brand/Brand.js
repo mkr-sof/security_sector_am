@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './brand.css';
+import {Wrapper} from "../index";
 import { hikVision, cisco, bosch } from './imports';
 
 const Brand = () => {
     return (
-        <div className="gpt3__brand section__padding">
+        <Wrapper>
+        <div className="gpt3__brand section__padding" id="brand">
             <Link to="/hikVision">
                 <div className="brand-image">
                     <img src={hikVision} alt="hikVision"/>
@@ -23,6 +25,7 @@ const Brand = () => {
             </Link>
 
         </div>
+        </Wrapper>
     );
 };
 

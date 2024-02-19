@@ -1,6 +1,6 @@
 import React from 'react';
 import './featutes.css';
-import {Feature} from "../../components";
+import {Feature, Wrapper} from "../../components";
 
 const featuresData = [
     {
@@ -23,6 +23,7 @@ const featuresData = [
 
 const Features = () => {
     return (
+        <Wrapper>
         <div className="gpt3__features section__padding" id="services">
             <div className="gpt3__features-heading">
                 <h1 className="gradient__text">Explore Exclusive Updates from Security Sector</h1>
@@ -34,6 +35,7 @@ const Features = () => {
                 ))}
             </div>
         </div>
+        </Wrapper>
     );
 };
 

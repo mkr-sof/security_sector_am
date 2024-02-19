@@ -1,17 +1,27 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from '../../assets/logo.svg';
 import './navbar.css';
 
-const Menu = () => (
+const Menu = () => {
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+    return (
     <>
-        <p><a href="#home">Home</a></p>
-        <p><a href="#what">What we do</a></p>
-        <p><a href="#services">Security Sector</a></p>
-        <p><a href="#faetures">Map</a></p>
-        <p><a href="#blog">Contact</a></p>
+        <p><Link to="/" onClick={() => scrollToSection('home')}>Home</Link></p>
+        <p><Link to="/what" onClick={() => scrollToSection('what')}>What we do</Link></p>
+        <p><Link to="/services" onClick={() => scrollToSection('services')}>Our Services</Link></p>
+        <p><Link to="/brand" onClick={() => scrollToSection('brand')}>Our Friends</Link></p>
+        <p><Link to="/map" onClick={() => scrollToSection('')}>Map</Link></p>
+        <p><Link to="/contact" onClick={() => scrollToSection('')}>Contact</Link></p>
     </>
-)
+    );
+}
 
 
 const Navbar = () => {

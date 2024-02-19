@@ -1,6 +1,6 @@
 import React from 'react';
 import './what.css';
-import {Feature} from "../../components";
+import {Feature, Wrapper} from "../../components";
 
 const What = () => {
 
@@ -33,22 +33,24 @@ const What = () => {
     ];
 
     return (
-        <div className="gpt3__whatWeDo section__margin" id="what">
-            <div className="gpt3__whatWeDo-feature">
-                <Feature title="What We Are Doing" text="At the Security Sector, we take pride in offering cutting-edge security solutions designed to meet the unique needs of our clients. Discover the featured content below to learn more about the advanced security features we provide." />
+        <Wrapper>
+            <div className="gpt3__whatWeDo section__margin" id="what">
+                <div className="gpt3__whatWeDo-feature">
+                    <Feature title="What We Are Doing" text="At the Security Sector, we take pride in offering cutting-edge security solutions designed to meet the unique needs of our clients. Discover the featured content below to learn more about the advanced security features we provide." />
+                </div>
+                <div className="gpt3__whatWeDo-heading">
+                    <h1 className="gradient__text">Explore Advanced Security Solutions with the Security Sector</h1>
+                    <p>Explore Our Services</p>
+                </div>
+                <div className="gpt3__whatWeDo-container">
+                    {
+                        whatWeDoData.map((item, index) => (
+                            <Feature title={item.title} text={item.text} key={item.title + index} />
+                        ))
+                    }
+                </div>
             </div>
-            <div className="gpt3__whatWeDo-heading">
-                <h1 className="gradient__text">Explore Advanced Security Solutions with the Security Sector</h1>
-                <p>Explore Our Services</p>
-            </div>
-            <div className="gpt3__whatWeDo-container">
-                {
-                    whatWeDoData.map((item, index) => (
-                        <Feature title={item.title} text={item.text} key={item.title + index} />
-                    ))
-                }
-            </div>
-        </div>
+        </Wrapper>
     );
 };
 
