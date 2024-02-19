@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import {Article, Brand, CTA, Feature, Navbar} from './components';
 import {Blog, Footer, What, Features, Header, Possibility} from './containers';
 import './app.css';
