@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74716eda-f8c4-4b0f-8be7-806fe2b80aee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/wrapper/Wrapper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/article/Article.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/article/article.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/brand/Brand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/brand/Brand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/features/Features.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/features/Features.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/what/What.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/what/What.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cta/CTA.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cta/CTA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cta/cta.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cta/cta.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +84,7 @@
       <workItem from="1705829617393" duration="1496000" />
       <workItem from="1708265180190" duration="310000" />
       <workItem from="1708266956637" duration="589000" />
-      <workItem from="1708362148731" duration="9206000" />
+      <workItem from="1708362148731" duration="12841000" />
     </task>
     <servers />
   </component>
