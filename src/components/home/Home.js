@@ -2,7 +2,7 @@ import React from 'react';
 import './home.css';
 import {Brand, CTA, Navbar} from "../index";
 import {Wrapper} from "../index";
-import {Blog, Features, Footer, Header, Possibility, What} from "../../containers";
+import {Blog, Features, Footer, Header, Contact, What} from "../../containers";
 
 const Home = () => {
     return (

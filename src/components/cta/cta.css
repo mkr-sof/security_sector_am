@@ -19,6 +19,29 @@
     line-height: 30px;
     color: #0E0E0E;
 }
+.gpt3__contact-heading {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.gpt3__contact-heading h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+}
+.gpt3__contact-heading p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: var(--color-text);
+}
 .gpt3__cta-content h3 {
     font-family: var(--font-family);
     font-weight: 800;

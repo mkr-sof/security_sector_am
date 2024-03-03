@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74716eda-f8c4-4b0f-8be7-806fe2b80aee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/containers/contact/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cta/CTA.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cta/CTA.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cta/cta.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cta/cta.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/possibility/Possibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/possibility/possibility.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/utils/Scroll.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +38,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Worckspace/security_sector_react",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Errors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Worckspace/security_sector_react&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Worckspace\gpt_3\src\assets" />
@@ -84,7 +92,9 @@
       <workItem from="1705829617393" duration="1496000" />
       <workItem from="1708265180190" duration="310000" />
       <workItem from="1708266956637" duration="589000" />
-      <workItem from="1708362148731" duration="12841000" />
+      <workItem from="1708362148731" duration="13897000" />
+      <workItem from="1708812093813" duration="4057000" />
+      <workItem from="1709456562411" duration="8271000" />
     </task>
     <servers />
   </component>
