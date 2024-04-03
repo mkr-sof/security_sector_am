@@ -1,6 +1,6 @@
-.gpt3__cta{
-    border: 1px solid white;
-    color: white;
+.security__cta{
+    border: 1px solid #EDEDEDFF;
+    color: #EDEDEDFF;
 
     display: flex;
     justify-content: space-between;
@@ -12,29 +12,29 @@
     border-radius: 1rem;
     background: var(--gradient-bar);
 }
-.gpt3__cta-content p {
+.security__cta-content p {
     font-family: var(--font-family);
     font-size: 12px;
     font-weight: 500;
     line-height: 30px;
     color: #0E0E0E;
 }
-.gpt3__contact-heading {
+.security__contact-heading {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
 }
-.gpt3__contact-heading h1{
+.security__contact-heading h1{
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.04em;
-    color: #ffffff;
+    color: #EDEDEDFF;
 }
-.gpt3__contact-heading p{
+.security__contact-heading p{
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
@@ -42,20 +42,20 @@
 
     color: var(--color-text);
 }
-.gpt3__cta-content h3 {
+.security__cta-content h3 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 24px;
     line-height: 45px;
     color: #000000;
 }
-.gpt3__cta-btn {
+.security__cta-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 2rem;
 }
-.gpt3__cta-btn button {
+.security__cta-btn button {
     background: #000000;
     color: #FFFFFF;
     border-radius: 40px;
@@ -70,23 +70,63 @@
     cursor: pointer;
     min-width: 150px;
 }
+.security__header-content__input{
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+}
+.security__header-content__input input{
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #EDEDEDFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.security__header-content__input button{
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    background: #636363;
+    color: #EDEDEDFF;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 @media screen and (max-width: 650px) {
-    .gpt3__cta {
+    .security__cta {
         flex-direction: column;
     }
-    .gpt3__cta-btn{
+    .security__cta-btn{
         margin: 2rem 0 0;
     }
 }
 @media screen and (max-width: 550px) {
-    .gpt3__cta{
+    .security__cta{
         margin: 4rem 2rem;
     }
-    .gpt3__cta-content h3 {
+    .security__cta-content h3 {
         font-size: 18px;
         line-height: 32px;
     }
-    .gpt3__cta-content button {
+    .security__cta-content button {
         font-size: 14px;
         line-height: 28px;
     }

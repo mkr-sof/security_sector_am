@@ -1,0 +1,10 @@
+{
+  "navbar": {
+    "home": "Home",
+    "what": "What we do",
+    "services": "Our Services",
+    "friends": "Our Friends",
+    "map": "Map",
+    "contact": "Contact"
+  }
+}

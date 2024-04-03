@@ -1,24 +1,39 @@
-import React, { useState } from 'react';
+import React, {startTransition, useState} from 'react';
 import { Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/Security_logo.png';
 import './navbar.css';
 
-const Menu = () => {
+// import i18n from 'i18next';
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from "../../translation/LanguageSwitcher";
+
+const Menu = ({ selectedLanguage }) => {
+const { t } = useTranslation();
+
     const scrollToSection = (id) => {
         const element = document.getElementById(id);
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' });
         }
     };
+
+    // const scrollToSection = (id:string) => {
+    //     const element = document.getElementById(id);
+    //     if (element) {
+    //         startTransition(() => {
+    //             element.scrollIntoView({ behavior: 'smooth' });
+    //         });
+    //     }
+    // };
     return (
     <>
-        <p><Link to="/" onClick={() => scrollToSection('home')}>Home</Link></p>
-        <p><Link to="/what" onClick={() => scrollToSection('what')}>What we do</Link></p>
-        <p><Link to="/services" onClick={() => scrollToSection('services')}>Our Services</Link></p>
-        <p><Link to="/brand" onClick={() => scrollToSection('brand')}>Our Friends</Link></p>
-        <p><Link to="/map" onClick={() => scrollToSection('')}>Map</Link></p>
-        <p><Link to="/contact" onClick={() => scrollToSection('')}>Contact</Link></p>
+        <p><Link to="/" onClick={() => scrollToSection('home')}>{t('navbar.home')}</Link></p>
+        <p><Link to="/what" onClick={() => scrollToSection('what')}>{t('navbar.what')}</Link></p>
+        <p><Link to="/services" onClick={() => scrollToSection('services')}>{t('navbar.services')}</Link></p>
+        <p><Link to="/brand" onClick={() => scrollToSection('brand')}>{t('navbar.friends')}</Link></p>
+        <p><Link to="/map" onClick={() => scrollToSection('map')}>{t('navbar.map')}</Link></p>
+        <p><Link to="/contact" onClick={() => scrollToSection('contact')}>{t('navbar.contact')}</Link></p>
     </>
     );
 }
@@ -26,33 +41,46 @@ const Menu = () => {
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
+    const { t } = useTranslation();
+    const [selectedLanguage, setSelectedLanguage] = useState('ENG');
+
+    const handleLanguageChange = (lang) => {
+        setSelectedLanguage(lang);
+    };
 
     return (
-        <div className="gpt3__navbar">
-            <div className="gpt3__navbar-links">
-                <div className="gpt3__navbar-links_logo">
+        <div className="security__navbar">
+            <div className="security__navbar-links">
+                <div className="security__navbar-links_logo">
                     <img src={logo} alt="logo"/>
                 </div>
-                <div className="gpt3__navbar-links_container">
-                    <Menu />
+                <div className="security__navbar-links_container">
+                    <Menu t = {t} />
                 </div>
             </div>
-            <div className="gpt3__navbar-sign">
-                <p>Sign in</p>
-                <button type="button">Sign up</button>
-            </div>
-            <div className="gpt3__navbar-menu">
+            <LanguageSwitcher
+                selectedLanguage={selectedLanguage}
+                onLanguageChange={handleLanguageChange}
+            />
+            {/*<div className="security__navbar-sign">*/}
+            {/*    <button type="button" className="active">RUS</button>*/}
+            {/*    <button type="button">ARM</button>*/}
+            {/*    <button type="button">ENG</button>*/}
+            {/*</div>*/}
+            <div className="security__navbar-menu">
                 {toggleMenu
-                    ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
+                    ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)}/>
                     : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
                 }
                 {toggleMenu && (
-                    <div className="gpt3__navbar-menu_container scale-up-center">
-                        <div className="gpt3__navbar-menu_container-links">
-                            <Menu />
-                            <div className="gpt3__navbar-menu_container-links-sign">
-                                <p>Sign in</p>
-                                <button type="button">Sign up</button>
+                    <div className="security__navbar-menu_container scale-up-center">
+                        <div className="security__navbar-menu_container-links">
+                            <Menu t = {t} />
+                            <div className="security__navbar-menu_container-links-sign">
+                                <LanguageSwitcher
+                                    selectedLanguage={selectedLanguage}
+                                    onLanguageChange={handleLanguageChange}
+                                />
                             </div>
                         </div>
                     </div>

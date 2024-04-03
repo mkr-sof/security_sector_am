@@ -1,10 +1,10 @@
-.gpt3__brand{
+.security__brand{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-.gpt3__brand div{
+.security__brand div{
     flex: 1;
     max-width: 150px;
     min-width: 120px;
@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
 }
-.gpt3__brand .brand-image img {
+.security__brand .brand-image img {
     width: 100%; /* Set the width to 100% of the container */
     height: auto; /* Maintain the aspect ratio */
     max-width: 100%; /* Ensure the image does not exceed its natural size */

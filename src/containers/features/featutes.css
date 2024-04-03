@@ -1,10 +1,10 @@
-.gpt3__features{
+.security__features{
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
-.gpt3__features-heading{
+.security__features-heading{
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -14,14 +14,14 @@
     text-align: left;
     margin-right: 5rem;
 }
-.gpt3__features-heading h1{
+.security__features-heading h1{
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 800;
     font-size: 34px;
     line-height: 45px;
 }
-.gpt3__features-heading p{
+.security__features-heading p{
    font-family: var(--font-family);
     font-style: normal;
     font-weight: 500;
@@ -32,10 +32,10 @@
     margin-top: 2rem;
 }
 @media screen and (max-width: 990px){
-    .gpt3__features{
+    .security__features{
         flex-direction: column;
     }
-    .gpt3__features-heading{
+    .security__features-heading{
         margin: 0 0 2rem 0;
     }
 }

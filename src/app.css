@@ -13,22 +13,46 @@ a {
     color: unset;
     text-decoration: none;
 }
-.gradient__bg{
+
+
+.gradient__bg
+{
     /* ff 3.6+ */
-    background: -moz-radial-gradient(circle at 8% 32%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    background: -moz-linear-gradient(90deg, rgb(120, 119, 119) 0%, rgba(36, 36, 36, 0.99) 30%);
 
     /* safari 5.1+,chrome 10+ */
-    background: -webkit-radial-gradient(circle at 8% 32%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(120, 119, 119, 1) 0%, rgba(36, 36, 36, 0.99) 30%);
 
     /* opera 11.10+ */
-    background: -o-radial-gradient(circle at 8% 32%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    background: -o-linear-gradient(90deg, rgba(120, 119, 119, 1) 0%, rgba(36, 36, 36, 0.99) 30%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242424', endColorstr='#787777', GradientType=0 );
 
     /* ie 10+ */
-    background: -ms-radial-gradient(circle at 8% 32%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    background: -ms-linear-gradient(90deg, rgba(120, 119, 119, 1) 0%, rgba(36, 36, 36, 0.99) 30%);
 
-    /* global 92%+ browsers support */
-    background: radial-gradient(circle at 8% 32%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    /* global 94%+ browsers support */
+    background: linear-gradient(90deg, rgba(120, 119, 119, 1) 0%, rgba(36, 36, 36, 0.99) 30%);
 }
+
+
+/*.gradient__bg{*/
+/*    !* ff 3.6+ *!*/
+/*    background: -moz-radial-gradient(circle at 8% 32%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);*/
+
+/*    !* safari 5.1+,chrome 10+ *!*/
+/*    background: -webkit-radial-gradient(circle at 8% 32%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);*/
+
+/*    !* opera 11.10+ *!*/
+/*    background: -o-radial-gradient(circle at 8% 32%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);*/
+
+/*    !* ie 10+ *!*/
+/*    background: -ms-radial-gradient(circle at 8% 32%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);*/
+
+/*    !* global 92%+ browsers support *!*/
+/*    background: radial-gradient(circle at 8% 32%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);*/
+/*}*/
 .gradient__text{
     background: var(--gradient-text);
     background-clip: text;

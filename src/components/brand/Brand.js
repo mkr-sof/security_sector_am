@@ -7,7 +7,7 @@ import { hikVision, cisco, bosch } from './imports';
 const Brand = () => {
     return (
         <Wrapper>
-        <div className="gpt3__brand section__padding" id="brand">
+        <div className="security__brand section__padding" id="brand">
             <Link to="/hikVision">
                 <div className="brand-image">
                     <img src={hikVision} alt="hikVision"/>

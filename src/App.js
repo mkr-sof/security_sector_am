@@ -1,13 +1,18 @@
-import React from 'react';
+import React, {useTransition} from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import {Home, Brand, CTA, Feature, Navbar, ScrollToTop} from './components';
-import {Blog, Footer, What, Features, Header, Contact} from './containers';
+import {Home, Brand, ScrollToTop} from './components';
+import {Map, What, Features, Contact} from './containers';
 import './app.css';
 
 
 
+// import LanguageSwitcher from './translation/LanguageSwitcher';
+
 const App = () => {
+
+
     return (
+
         <Router>
             <ScrollToTop />
             <Routes>
@@ -16,9 +21,11 @@ const App = () => {
                 <Route path="/services" element={ <Features /> } />
                 <Route path="/brand" element={ <Brand /> } />
                 <Route path="/contact" element={ <Contact /> } />
+                <Route path="/map" element={ <Map /> } />
             </Routes>
 
         </Router>
+
     );
 };
 
