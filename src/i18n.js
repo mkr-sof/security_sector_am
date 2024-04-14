@@ -1,4 +1,5 @@
 import i18n from 'i18next';
+import Backend from 'i18next-http-backend';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import translationEN from './translation/english/translation.json';
@@ -18,10 +19,11 @@ const resources = {
 }
 
 i18n
-    // .use(Backend)
+    .use(Backend)
     .use(require(LanguageDetector))
     .use(initReactI18next)
     .init({
+        rtl: true,
         debug: true,
         fallbackLng: 'en',
         resources,
@@ -30,7 +32,11 @@ i18n
         },
         interpolation: {
             escapeValue: false
-        }
+        },
+        react: {
+            wait: true,
+            useSuspense: false,
+        },
     }).then(() => {
     // Code to execute after i18n initialization is complete
     console.log('i18n initialization completed.');

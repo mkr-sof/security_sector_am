@@ -6,5 +6,9 @@
     "friends": "Our Friends",
     "map": "Map",
     "contact": "Contact"
-  }
+  },
+  "header":{
+  "welcomeMessage": "Welcome to Security Sector - Where Your Security is Our Priority",
+  "introText": "At Security Sector, you're not just a client; you're a valued member of our security family. Explore our range of services designed to meet your specific requirements and discover the difference that personalized care can make."
+}
 }

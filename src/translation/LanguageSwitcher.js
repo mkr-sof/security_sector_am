@@ -2,12 +2,13 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher = ({ selectedLanguage, onLanguageChange }) => {
-    const { t, i18n } = useTranslation(); // Get translation function and i18n instance
+    const { t, i18n } = useTranslation();
 
     const changeLanguage = async (lng) => {
         await i18n.changeLanguage(lng);
-        onLanguageChange(lng);
+        onLanguageChange(selectedLanguage);
     };
+
     console.log(i18n)
 
     return (

@@ -1,4 +1,4 @@
-import React, {startTransition, useState} from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from '../../assets/Security_logo.png';
@@ -18,14 +18,6 @@ const { t } = useTranslation();
         }
     };
 
-    // const scrollToSection = (id:string) => {
-    //     const element = document.getElementById(id);
-    //     if (element) {
-    //         startTransition(() => {
-    //             element.scrollIntoView({ behavior: 'smooth' });
-    //         });
-    //     }
-    // };
     return (
     <>
         <p><Link to="/" onClick={() => scrollToSection('home')}>{t('navbar.home')}</Link></p>
@@ -42,7 +34,7 @@ const { t } = useTranslation();
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     const { t } = useTranslation();
-    const [selectedLanguage, setSelectedLanguage] = useState('ENG');
+    const [selectedLanguage, setSelectedLanguage] = useState("ENG");
 
     const handleLanguageChange = (lang) => {
         setSelectedLanguage(lang);
