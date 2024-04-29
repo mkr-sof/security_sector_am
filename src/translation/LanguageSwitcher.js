@@ -9,18 +9,18 @@ const LanguageSwitcher = ({ selectedLanguage, onLanguageChange }) => {
         onLanguageChange(selectedLanguage);
     };
 
-    console.log(i18n)
+    console.log(i18n.language)
 
     return (
         <div className="security__navbar-sign">
-            {['RUS', 'ARM', 'ENG'].map((lang) => (
+            {['RUS', 'ARM', 'ENG'].map((lng) => (
                 <button
-                    key={lang}
+                    key={lng}
                     type="button"
-                    className={lang === i18n.language ? 'active' : ''} // Set active class based on current language
-                    onClick={() => changeLanguage(lang)}
+                    className={lng === i18n.language ? 'active' : ''} // Set active class based on current language
+                    onClick={() => changeLanguage(lng)}
                 >
-                    {t(`${lang}`)}
+                    {t(`${lng}`)}
                 </button>
             ))}
         </div>

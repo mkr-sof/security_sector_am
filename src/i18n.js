@@ -7,42 +7,34 @@ import translationRU from './translation/russian/translation.json';
 import translationAM from './translation/armenian/translation.json';
 
 const resources = {
-    en:{
+    ENG:{
         translation: translationEN
     },
-    ru:{
+    RUS:{
         translation: translationRU
     },
-    am:{
+    ARM:{
         translation: translationAM
     }
 }
-
+// const language = localStorage.getItem('language');
 i18n
-    .use(Backend)
-    .use(require(LanguageDetector))
+    .use(LanguageDetector)
     .use(initReactI18next)
     .init({
-        rtl: true,
         debug: true,
         fallbackLng: 'en',
         resources,
+        // lng: language || 'en',
         detection: {
-            caches: ['cookie',]
+            caches: ['cookie', 'localStorage']
         },
-        interpolation: {
-            escapeValue: false
-        },
-        react: {
-            wait: true,
-            useSuspense: false,
-        },
-    }).then(() => {
-    // Code to execute after i18n initialization is complete
+           }).then(() => {
+    // after i18n initialization is complete
     console.log('i18n initialization completed.');
 })
     .catch(error => {
-        // Handle initialization errors
+        // initialization errors
         console.error('Error initializing i18n:', error);
     });
 export default i18n;

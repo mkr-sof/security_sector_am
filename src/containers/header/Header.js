@@ -2,14 +2,15 @@ import React from 'react';
 import './header.css';
 import people from "../../assets/people.png";
 import security from "../../assets/security.png";
-import getTranslation from "../../translation/translationLoader";
+import {useTranslation} from "react-i18next";
 
-const Header = ({ language }) => {
+const Header = () => {
+    const { t } = useTranslation();
     return (
         <div className="security__header section__padding" id="home">
             <div className="security__header-content">
-                <h1 className="gradient__text">{getTranslation('welcomeMessage', language)}</h1>
-                <p>{getTranslation('introText', language)}</p>
+                <h1 className="gradient__text">{t('header.welcomeMessage')}</h1>
+                <p>{t('header.introText')}</p>
 
                 {/*<div className="security__header-content__people">*/}
                 {/*    <img src={people} alt="people"/>*/}

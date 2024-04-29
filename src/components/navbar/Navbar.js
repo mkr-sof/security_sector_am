@@ -1,31 +1,27 @@
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from '../../assets/Security_logo.png';
 import './navbar.css';
 
-// import i18n from 'i18next';
+
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from "../../translation/LanguageSwitcher";
+import i18n from "../../i18n";
 
-const Menu = ({ selectedLanguage }) => {
-const { t } = useTranslation();
-
-    const scrollToSection = (id) => {
-        const element = document.getElementById(id);
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
+const Menu = ({ t }) => {
+    useEffect(() => {
+        console.log('Current language:', i18n.language);
+    }, [i18n.language]);
 
     return (
     <>
-        <p><Link to="/" onClick={() => scrollToSection('home')}>{t('navbar.home')}</Link></p>
-        <p><Link to="/what" onClick={() => scrollToSection('what')}>{t('navbar.what')}</Link></p>
-        <p><Link to="/services" onClick={() => scrollToSection('services')}>{t('navbar.services')}</Link></p>
-        <p><Link to="/brand" onClick={() => scrollToSection('brand')}>{t('navbar.friends')}</Link></p>
-        <p><Link to="/map" onClick={() => scrollToSection('map')}>{t('navbar.map')}</Link></p>
-        <p><Link to="/contact" onClick={() => scrollToSection('contact')}>{t('navbar.contact')}</Link></p>
+        <p><Link to="/">{t('navbar.home')}</Link></p>
+        <p><Link to="/what">{t('navbar.what')}</Link></p>
+        <p><Link to="/services">{t('navbar.services')}</Link></p>
+        <p><Link to="/brand">{t('navbar.friends')}</Link></p>
+        <p><Link to="/map">{t('navbar.map')}</Link></p>
+        <p><Link to="/contact">{t('navbar.contact')}</Link></p>
     </>
     );
 }
@@ -33,11 +29,11 @@ const { t } = useTranslation();
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
-    const { t } = useTranslation();
-    const [selectedLanguage, setSelectedLanguage] = useState("ENG");
+    const [selectedLanguage, setSelectedLanguage] = useState();
 
-    const handleLanguageChange = (lang) => {
-        setSelectedLanguage(lang);
+    const { t } = useTranslation();
+        const handleLanguageChange = (lng) => {
+        setSelectedLanguage(lng);
     };
 
     return (
@@ -54,11 +50,6 @@ const Navbar = () => {
                 selectedLanguage={selectedLanguage}
                 onLanguageChange={handleLanguageChange}
             />
-            {/*<div className="security__navbar-sign">*/}
-            {/*    <button type="button" className="active">RUS</button>*/}
-            {/*    <button type="button">ARM</button>*/}
-            {/*    <button type="button">ENG</button>*/}
-            {/*</div>*/}
             <div className="security__navbar-menu">
                 {toggleMenu
                     ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)}/>

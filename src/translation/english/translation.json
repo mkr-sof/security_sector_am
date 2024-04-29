@@ -1,14 +1,41 @@
-{
-  "navbar": {
-    "home": "Home",
-    "what": "What we do",
-    "services": "Our Services",
-    "friends": "Our Friends",
-    "map": "Map",
-    "contact": "Contact"
+
+
+  {
+    "navbar": {
+      "home": "Home",
+      "what": "About",
+      "services": "Services",
+      "friends": "Friends",
+      "map": "Map",
+      "contact": "Contact"
+    },
+    "header": {
+      "welcomeMessage": "Welcome to the Security Sector - Where Your Security is Our Priority",
+      "introText": "At Security Sector, you're not just a client; you're a valued member of our security family. Explore our range of services designed to meet your specific requirements and discover the difference that personalized care can make."
+    },
+  "features": {
+    "title": "Explore Exclusive Updates from Security Sector",
+    "description": "Request to Access to Get Started"
   },
-  "header":{
-  "welcomeMessage": "Welcome to Security Sector - Where Your Security is Our Priority",
-  "introText": "At Security Sector, you're not just a client; you're a valued member of our security family. Explore our range of services designed to meet your specific requirements and discover the difference that personalized care can make."
-}
-}
+    "featuresData":
+  [
+    {
+      "title": "Security Industry Insights",
+      "text": "Our commitment to keeping you informed goes beyond routine updates. Dive into insightful content crafted to provide you with valuable knowledge about the evolving landscape of security. Whether you're interested in the latest advancements in surveillance technology, emerging threat landscapes, or industry-wide best practices, our Security Industry Insights are your go-to resource."
+    },
+    {
+      "title": "Home Security Bundle",
+      "text": "Protect your home with our Home Security Bundle, combining smart surveillance solutions, access control features, and a personalized security plan. Enjoy a special bundled price for a comprehensive home security setup."
+    },
+    {
+      "title": "Business Protection Package",
+      "text": "For businesses, our Business Protection Package offers a complete security solution. Receive a discounted rate on advanced security measures such as intruder detection systems, cybersecurity assessments, and emergency response planning."
+    },
+    {
+      "title": "Limited-Time Equipment Upgrade",
+      "text": "Upgrade your security equipment with our limited-time offer! Get exclusive discounts on the latest surveillance cameras, access control systems, and other cutting-edge security technologies."
+    }
+  ]
+
+  }
+
