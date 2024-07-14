@@ -5,18 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74716eda-f8c4-4b0f-8be7-806fe2b80aee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/form/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modal/Modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modal/modal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Security__.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/Security__.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Security_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/Security_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bosch.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bosch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/cisco.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/cisco.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/hikVision.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/hikVision.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/new_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/new_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/people.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/people.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/security.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/security.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/brand/imports.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/brand/imports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cta/CTA.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cta/CTA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cta/cta.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cta/cta.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/wrapper/Wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrapper/Wrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/features/Features.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/features/Features.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translation/LanguageSwitcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/translation/LanguageSwitcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/what/What.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/what/What.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/translation/armenian/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translation/armenian/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/translation/english/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translation/english/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/translation/russian/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translation/russian/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translation/translationLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +43,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -47,11 +64,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Node.js.Features.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/__node__new__lessons/lesson1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Worckspace/security_sector_backend&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -60,8 +78,8 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.start.executor&quot;: &quot;Debug&quot;,
     &quot;npm.test.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.3.5\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 242.19890.18\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -72,14 +90,17 @@
       <recent name="D:\Worckspace\gpt_3\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Worckspace\security_sector_react\src\assets\img" />
       <recent name="D:\Worckspace\security_sector_react\src\assets" />
       <recent name="D:\Worckspace\gpt_3\src\components\pages\brandPages\bosch" />
       <recent name="D:\Worckspace\gpt_3\src\components\pages\brandPages\cicso" />
       <recent name="D:\Worckspace\gpt_3\src\components\pages\brandPages\hikVision" />
-      <recent name="D:\Worckspace\gpt_3\src\components\brand" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="Node.js.Features.js">
+    <configuration name="Features.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/containers/features/Features.js" working-dir="$PROJECT_DIR$/src/containers/features">
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -102,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.Features.js" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.test" />
       </list>
@@ -110,7 +132,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-2e7d6887c066-JavaScript-WS-241.15989.47" />
+        <option value="bundled-js-predefined-d6986cc7102b-eef0733dfcaf-JavaScript-WS-242.19890.18" />
       </set>
     </attachedChunks>
   </component>
@@ -173,6 +195,24 @@
       <workItem from="1713776465408" duration="6859000" />
       <workItem from="1714117620991" duration="4554000" />
       <workItem from="1714332924343" duration="661000" />
+      <workItem from="1714370653152" duration="9076000" />
+      <workItem from="1714501109334" duration="945000" />
+      <workItem from="1714685678743" duration="189000" />
+      <workItem from="1714731111138" duration="33000" />
+      <workItem from="1717494199648" duration="3116000" />
+      <workItem from="1718362064121" duration="88000" />
+      <workItem from="1718362177093" duration="585000" />
+      <workItem from="1719308240381" duration="1515000" />
+      <workItem from="1719379039867" duration="594000" />
+      <workItem from="1720261200613" duration="312000" />
+      <workItem from="1720535506779" duration="4458000" />
+      <workItem from="1720641730650" duration="1841000" />
+      <workItem from="1720644101963" duration="1534000" />
+      <workItem from="1720700910028" duration="2420000" />
+      <workItem from="1720779267681" duration="23000" />
+      <workItem from="1720946860826" duration="1474000" />
+      <workItem from="1720950901250" duration="3887000" />
+      <workItem from="1720973881156" duration="15647000" />
     </task>
     <servers />
   </component>

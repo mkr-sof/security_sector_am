@@ -1,8 +1,8 @@
 import React from 'react';
 import './footer.css';
 
-import logo from '../../assets/Security__.png'
-import securityLogo from '../../assets/logo.svg'
+import logo from '../../assets/img/Security__.png'
+import securityLogo from '../../assets/img/logo.svg'
 import {Link} from "react-router-dom";
 
 const Footer = () => {
