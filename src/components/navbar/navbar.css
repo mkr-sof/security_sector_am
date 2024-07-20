@@ -96,7 +96,7 @@
 .security__navbar-menu_container-links-sign{
     display: none;
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1140px) {
     .security__navbar-links_container{
         display: none;
     }

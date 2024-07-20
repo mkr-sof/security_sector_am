@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from '../../assets/img/Security_logo.png';
 import './navbar.css';
+import useMatchMedia from '../../hooks/useMatchMedia'
 
 
 import { useTranslation } from 'react-i18next';
@@ -28,6 +29,7 @@ const Menu = ({ t }) => {
 
 
 const Navbar = () => {
+    const { isMobile, isTablet, isDesktop } = useMatchMedia();
     const [toggleMenu, setToggleMenu] = useState(false);
     const [selectedLanguage, setSelectedLanguage] = useState();
 
@@ -42,20 +44,24 @@ const Navbar = () => {
                 <div className="security__navbar-links_logo">
                     <img src={logo} alt="logo"/>
                 </div>
-                <div className="security__navbar-links_container">
+                {!isMobile || !isTablet || !isDesktop && (
+                    <div className="security__navbar-links_container">
                     <Menu t = {t} />
                 </div>
+                    )}
             </div>
+            {!isMobile && (
             <LanguageSwitcher
                 selectedLanguage={selectedLanguage}
                 onLanguageChange={handleLanguageChange}
             />
+            )}
             <div className="security__navbar-menu">
                 {toggleMenu
                     ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)}/>
                     : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
                 }
-                {toggleMenu && (
+                {toggleMenu && (isMobile || isTablet || isDesktop) && (
                     <div className="security__navbar-menu_container scale-up-center">
                         <div className="security__navbar-menu_container-links">
                             <Menu t = {t} />
