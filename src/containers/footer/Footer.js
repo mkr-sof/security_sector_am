@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.css';
+// import './footer.css';
 
 import logo from '../../assets/img/Security__.png'
 import securityLogo from '../../assets/img/logo.svg'

@@ -1,0 +1,26 @@
+.gradient__bg
+{
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(90deg, rgb(120, 119, 119) 0%, rgba(36, 36, 36, 0.99) 30%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(90deg, rgba(120, 119, 119, 1) 0%, rgba(36, 36, 36, 0.99) 30%);
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, rgba(120, 119, 119, 1) 0%, rgba(36, 36, 36, 0.99) 30%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242424', endColorstr='#787777', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(90deg, rgba(120, 119, 119, 1) 0%, rgba(36, 36, 36, 0.99) 30%);
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgba(120, 119, 119, 1) 0%, rgba(36, 36, 36, 0.99) 30%);
+}
+.gradient__text{
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

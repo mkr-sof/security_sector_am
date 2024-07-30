@@ -1,5 +1,5 @@
 import React from 'react';
-import './what.css';
+// import './what.css';
 import {Feature, Wrapper} from "../../components";
 import {useTranslation} from "react-i18next";
 

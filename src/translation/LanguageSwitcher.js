@@ -27,4 +27,4 @@ const LanguageSwitcher = ({ selectedLanguage, onLanguageChange }) => {
     );
 };
 
-export default LanguageSwitcher;
+export default React.memo(LanguageSwitcher);

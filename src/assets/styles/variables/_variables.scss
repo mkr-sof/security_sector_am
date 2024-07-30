@@ -1,0 +1,22 @@
+@use "sass:map";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  $font-family: 'Manrope', sans-serif;
+
+  $gradient-text: linear-gradient(90deg, rgba(194, 0, 1, 1) 0%, rgba(92, 1, 0, 1) 100%);
+  $gradient-bar: linear-gradient(90deg, rgba(194, 0, 1, 1) 0%, rgba(92, 1, 0, 1) 100%);
+  $gradient-bg: linear-gradient(90deg, rgba(99, 99, 99, 1) 0%, rgb(16, 16, 16) 100%);
+
+
+  $color-bg: #151515;
+  $color-footer: #101010;
+  $color-blog: #434648;
+  $color-text: #848685;
+  $color-subtext: #434648;
+
+  $highlight-color: #FF8A71;
+  $white-color: #EDEDEDFF;
+  $black-color: #000000;
+  $gray-color: #636363;
+}

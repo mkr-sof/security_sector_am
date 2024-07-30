@@ -1,0 +1,228 @@
+
+@media screen and(max-width: 700px) {
+  .section__padding{
+    padding: 4rem;
+  }
+  .section__margin {
+    margin: 4rem;
+  }
+}
+@media screen and(max-width: 550px) {
+  .section__padding{
+    padding: 4rem 2rem;
+  }
+  .section__margin {
+    margin: 4rem 2rem;
+  }
+}
+
+// Media Queries for Navbar
+@media screen and (max-width: 1050px) {
+  .security__navbar-links_container {
+    display: none;
+  }
+
+  .security__navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .security__navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .security__navbar {
+    padding: 2rem;
+
+    &-sign {
+      display: none;
+    }
+
+    &-menu_container {
+      top: 20px;
+
+      &_links-sign {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      button {
+        margin: 0 0.5rem;
+      }
+    }
+  }
+  // Media Queries for Services
+  @media screen and (max-width: 990px){
+    .security__services {
+      flex-direction: column;
+
+      &-heading {
+        margin: 0 0 2rem 0;
+      }
+    }
+  }
+}
+
+//Media Queries for CTA
+@media screen and (max-width: 650px) {
+  .security__cta {
+    flex-direction: column;
+
+    &-btn {
+      margin: 2rem 0 0;
+    }
+  }
+ }
+@media screen and (max-width: 550px) {
+  .security__cta {
+    margin: 4rem 2rem;
+
+    &-content h3 {
+      font-size: 18px;
+      line-height: 32px;
+    }
+
+    button {
+      font-size: 14px;
+      line-height: 28px;
+    }
+  }
+}
+//Media Queries for What We Do
+@media screen and(max-width: 850px){
+  .security__whatWeDo-heading{
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+  & h1{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 500;
+  }
+  & p{
+    margin-bottom: 1rem;
+  }
+  .security__features-container__feature {
+    /*flex: 1 1 calc(50% - 1rem); !* Two services per row on smaller screens *!*/
+  }
+}
+@media screen and(max-width: 650px){
+  .security__whatWeDo-feature .security__features-container__feature{
+    flex-direction: column;
+  }
+  .security__whatWeDo-feature .security__features-container__feature-text{
+    margin-top: 0.5rem;
+  }
+  .security__whatWeDo-heading h1{
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+@media screen and(max-width: 350px){
+  .security__whatWeDo-container .security__features-container__feature{
+    /*margin: 1rem 0;*/
+    margin: 0;
+    min-width: 100%;
+  }
+}
+
+// Media Queries for Header
+@media screen and (max-width: 1050px) {
+  .security__header {
+    flex-direction: column;
+
+    &-content {
+      margin: 0 0 3rem;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .security__header {
+
+    & h1 {
+      font-size: 48px;
+      line-height: 60px;
+    }
+
+    & p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    &-content__people {
+      flex-direction: column;
+
+      &__people {
+        margin: 0;
+      }
+
+      &__input {
+        input,
+        button {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .security__header {
+    & h1 {
+      font-size: 36px;
+      line-height: 48px;
+    }
+
+    & p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    &-content__input {
+      input,
+      & button {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+  }
+}
+
+// Media Queries for Footer
+
+@media screen and (max-width: 850px) {
+  .security__footer-heading h1 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .security__footer-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+    &-links_div {
+      margin: 1rem 0;
+    }
+    &-btn p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .security__footer-heading h1 {
+    font-size: 27px;
+    line-height: 38px;
+  }
+}

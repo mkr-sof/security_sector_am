@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css';
+// import './header.css';
 import people from "../../assets/img/people.png";
 import security from "../../assets/img/security.png";
 import {useTranslation} from "react-i18next";

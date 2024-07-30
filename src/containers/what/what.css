@@ -117,7 +117,7 @@
         margin-bottom: 1rem;
     }
     .security__features-container__feature {
-        /*flex: 1 1 calc(50% - 1rem); !* Two features per row on smaller screens *!*/
+        /*flex: 1 1 calc(50% - 1rem); !* Two services per row on smaller screens *!*/
     }
 }
 @media screen and(max-width: 650px){

@@ -1,0 +1,122 @@
+.cta {
+  margin: 0 0 3rem;
+}
+
+.security__cta {
+  border: 1px solid #EDEDEDFF;
+  color: #EDEDEDFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
+  margin: 4rem;
+  border-radius: 1rem;
+  background: $gradient-bar;
+
+  &-content {
+    p {
+      font-family: $font-family;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 30px;
+      color: #0E0E0E;
+    }
+
+    h3 {
+      font-family: $font-family;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 45px;
+      color: #000000;
+    }
+  }
+
+  &__contact-heading {
+    margin: 3rem;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    h1 {
+      font-family: $font-family;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: -0.04em;
+      color: #EDEDEDFF;
+    }
+
+    p {
+      font-family: $font-family;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      color: $color-text;
+    }
+  }
+
+  &-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+
+    button {
+      background: #000000;
+      color: #FFFFFF;
+      border-radius: 40px;
+      font-family: $font-family;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 30px;
+      padding: 0.5rem 1rem;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      min-width: 150px;
+    }
+  }
+
+  &__contact__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+
+    input {
+      flex: 2;
+      width: 100%;
+      min-height: 50px;
+      font-family: $font-family;
+      font-size: 20px;
+      line-height: 27px;
+      background: $color-footer;
+      border: 2px solid $color-footer;
+      padding: 0 1rem;
+      outline: none;
+      color: #EDEDEDFF;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+
+    button {
+      flex: 0.6;
+      width: 100%;
+      min-height: 50px;
+      font-family: $font-family;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 27px;
+      background: #636363;
+      color: #EDEDEDFF;
+      cursor: pointer;
+      outline: none;
+      padding: 0 1rem;
+      border: none;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  }
+}

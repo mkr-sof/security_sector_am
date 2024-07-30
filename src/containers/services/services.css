@@ -1,10 +1,10 @@
-.security__features{
+.security__services{
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
-.security__features-heading{
+.security__services-heading{
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -14,14 +14,14 @@
     text-align: left;
     margin-right: 5rem;
 }
-.security__features-heading h1{
+.security__services-heading h1{
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 800;
     font-size: 34px;
     line-height: 45px;
 }
-.security__features-heading p{
+.security__services-heading p{
    font-family: var(--font-family);
     font-style: normal;
     font-weight: 500;
@@ -32,10 +32,10 @@
     margin-top: 2rem;
 }
 @media screen and (max-width: 990px){
-    .security__features{
+    .security__services{
         flex-direction: column;
     }
-    .security__features-heading{
+    .security__services-heading{
         margin: 0 0 2rem 0;
     }
 }

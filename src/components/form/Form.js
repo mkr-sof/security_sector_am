@@ -4,9 +4,10 @@ import './form.css';
 
 import {useForm} from "react-hook-form";
 
-const Form = ({ handleDataChange }) => {
+const Form = ({ onSubmit }) => {
     const [data, setData] = useState({});
     const {
+        handleSubmit,
         register,
         setValue,
         formState: {errors},
@@ -17,29 +18,29 @@ const Form = ({ handleDataChange }) => {
             phone: "+374"
         }
     });
-    const handleSubmit = (data) => {
-        setData(data);
-        // e.preventDefault();
-        console.log(JSON.stringify(data));
-        reset()
+    const onFormSubmit = (data) => {
+        console.log(data);
+        // handleDataChange(data);
+        reset();
+        // closeModal();
     }
- // console.log(errors)
-    const handlePhoneChange = (e) => {
+     const handlePhoneChange = (e) => {
         const value = e.target.value;
         if(!value.startsWith("+374")) {
             setValue("phone", "+374" + value);
         }
-        handleDataChange(e);
+        // handleDataChange(e);
     }
 
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit(onFormSubmit)}>
             <label>
                 Full Name:
                 <input
                     type="text"
-                    onChange={handleDataChange}
+                    // onChange={handleDataChange}
+                    onChange={e => setValue("fullName", e.target.value)}
                     {...register("fullName", {
                         required: "Enter your name here"
                     })}
@@ -53,11 +54,13 @@ const Form = ({ handleDataChange }) => {
                 Email:
                 <input
                     type="email"
-                    onChange={handleDataChange}
+                    // onChange={handleDataChange}
+                    // onChange={e => setValue("email", e.target.value)}
                     {...register("email", {
                         required: "Email is required",
                         pattern: {
-                            value: /^\S+@\S+\.\S+$/,
+                            // value: /^\S+@\S+\.\S+$/,
+                            value: /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
                             message: "Email is invalid"
                         }
                     })}
@@ -73,6 +76,7 @@ const Form = ({ handleDataChange }) => {
                     type="tel"
                     placeholder="+374..."
                     onChange={handlePhoneChange}
+                    // onChange={e => setValue("phone", e.target.value)}
                     {...register("phone", {
                         required: "Enter your phone here",
                         pattern: {
@@ -87,7 +91,7 @@ const Form = ({ handleDataChange }) => {
             </div>
             <input type="submit"
                    className="security__cta-btn"
-                   onSubmit={setData}
+                   // onSubmit={handleSubmit(onSubmit)}
             />
         </form>
     )

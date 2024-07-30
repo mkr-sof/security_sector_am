@@ -37,4 +37,5 @@ i18n
         // initialization errors
         console.error('Error initializing i18n:', error);
     });
+
 export default i18n;

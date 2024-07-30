@@ -1,0 +1,12 @@
+@import "media-queries";
+@import "../mixins/mixins";
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+.section__margin {
+  margin: 4rem 6rem;
+}
+.scale-up-center {
+  @include scale-uo-center;
+}

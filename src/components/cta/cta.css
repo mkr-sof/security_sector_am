@@ -23,7 +23,7 @@
     line-height: 30px;
     color: #0E0E0E;
 }
-.security__contact-heading {
+.security__cta__contact-heading {
     margin: 3rem;
     flex: 1;
     display: flex;
@@ -31,7 +31,7 @@
     align-items: flex-start;
     flex-direction: column;
 }
-.security__contact-heading h1 {
+.security__cta__contact-heading h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 18px;
@@ -39,7 +39,7 @@
     letter-spacing: -0.04em;
     color: #EDEDEDFF;
 }
-.security__contact-heading p{
+.security__cta__contact-heading p{
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
@@ -75,13 +75,13 @@
     cursor: pointer;
     min-width: 150px;
 }
-.security__header-content__input{
+.security__cta__contact__input{
     width: 100%;
     margin: 2rem 0 1rem;
 
     display: flex;
 }
-.security__header-content__input input{
+.security__cta__contact__input input{
     flex: 2;
     width: 100%;
     min-height: 50px;
@@ -96,7 +96,7 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.security__header-content__input button{
+.security__cta__contact__input button{
     flex: 0.6;
     width: 100%;
     min-height: 50px;

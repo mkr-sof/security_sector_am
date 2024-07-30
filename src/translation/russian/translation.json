@@ -1,4 +1,7 @@
 {
+  "RUS": "RUS",
+  "ARM": "ARM",
+  "ENG": "ENG",
   "navbar": {
     "home": "Домой",
     "what": "О Нас",
@@ -12,14 +15,10 @@
     "introText": "В Security Sector вы не просто клиент: вы ценный член нашей безопасной семьи. Изучите наш спектр услуг, разработанных с учетом ваших конкретных требований, и узнайте, какую разницу может дать индивидуальный подход."
   },
   "services": {
-    "servKey": "Добро пожаловать в Security Sector - где ваша безопасность является нашим приоритетом",
-    "desc": "В Security Sector вы не просто клиент: вы ценный член нашей безопасной семьи. Изучите наш спектр услуг, разработанных с учетом ваших конкретных требований, и узнайте, какую разницу может дать индивидуальный подход."
-  },
-  "features": {
     "title": "Изучите эксклюзивные новости из Security Sector",
     "description": "Запросить доступ, чтобы начать работу"
   },
-  "featuresData":
+  "servicesData":
   [
     {
       "title": "Аналитика индустрии безопасности",
@@ -69,7 +68,19 @@
       "title": "Интеграционные решения",
       "text": "Оцените бесшовную интеграцию безопасности с нашими решениями. Узнайте, как мы объединяем различные функции безопасности в единую систему, предоставляя вам комплексную и эффективную инфраструктуру безопасности."
     }
-  ]
+  ],
+  "cta": {
+    "content": {
+      "title": "Ready to Enhance Your Security?",
+      "text": "Contact us today to explore our full range of security services and discover how we can tailor a solution to meet your specific needs.",
+      "button-text": "Get Started"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "text": "Have a question or need assistance? Reach out to our team for personalized support and expert guidance.",
+      "button-text": "Contact Us"
+    }
+  }
 }
 
 

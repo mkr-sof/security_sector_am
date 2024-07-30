@@ -1,6 +1,9 @@
 
 
   {
+    "RUS": "RUS",
+    "ARM": "ARM",
+    "ENG": "ENG",
     "navbar": {
       "home": "Home",
       "what": "About",
@@ -13,11 +16,11 @@
       "welcomeMessage": "Welcome to the Security Sector - Where Your Security is Our Priority",
       "introText": "At Security Sector, you're not just a client; you're a valued member of our security family. Explore our range of services designed to meet your specific requirements and discover the difference that personalized care can make."
     },
-  "features": {
+  "services": {
     "title": "Explore Exclusive Updates from Security Sector",
     "description": "Request to Access to Get Started"
   },
-    "featuresData":
+    "servicesData":
   [
     {
       "title": "Security Industry Insights",
@@ -67,6 +70,18 @@
       "title": "Integration Solutions",
       "text": "Experience seamless security integration with our solutions. Find out how we combine various security features into a cohesive system, providing you with a comprehensive and efficient security infrastructure."
     }
-]
+],
+"cta": {
+      "content": {
+        "title": "Ready to Enhance Your Security?",
+        "text": "Contact us today to explore our full range of security services and discover how we can tailor a solution to meet your specific needs.",
+        "button-text": "Get Started"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "text": "Have a question or need assistance? Reach out to our team for personalized support and expert guidance.",
+        "button-text": "Contact Us"
+      }
+}
   }
 

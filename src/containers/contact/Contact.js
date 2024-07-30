@@ -1,5 +1,5 @@
 import React from 'react';
-import './contact.css';
+// import './contact.css';
 import {CTA, Wrapper, ScrollToTop} from "../../components";
 
 const Contact = () => {

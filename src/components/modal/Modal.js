@@ -6,12 +6,13 @@ const Modal = ({show, onClose, onDataSubmit, title, children, customClass, custo
     const [data, setData] = useState({});
 
 
-    const handleDataChange = (e) => {
-        setData({
-            ...data,
-            [e.target.name]: e.target.value
-        });
-        console.log(data);
+    const handleDataChange = (newData) => {
+        setData(prevData =>({
+            ...prevData,
+            ...newData
+        }));
+        console.log(newData);
+        onClose()
     }
       return (
         <>
@@ -28,6 +29,9 @@ const Modal = ({show, onClose, onDataSubmit, title, children, customClass, custo
                             </div>
                             <div className="modal__body">
                                 <Form handleDataChange={handleDataChange} />
+                                {/*<Form onSubmit={(data) => {*/}
+                                {/*    onDataSubmit(data);*/}
+                                {/*    onClose();}} />*/}
                             </div>
                     </div>
                 )}
