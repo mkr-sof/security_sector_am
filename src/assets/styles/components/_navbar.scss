@@ -1,5 +1,4 @@
-@use "sass:map";
-@import "../variables/_variables";
+@import "../variables/variables";
 
 .security__navbar {
   display: flex;
@@ -33,17 +32,20 @@
     justify-content: flex-end;
     align-items: center;
     button.active {
-      background: $gray-color;
+      background: #636363;
+      //background: $gray-color;
     }
     &:hover {
-      background-color: $highlight-color;
-      color: $white-color;
+      background-color: #FF8A71;
+      //background-color: $highlight-color;
+      color: #EDEDEDFF;
+      //color: $white-color;
     }
   }
   &-links_container p,
   &-menu_container p {
-    color: $white-color;
-    font-family: $font-family;
+    color: #EDEDEDFF;
+    font-family: 'Manrope', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
@@ -54,9 +56,9 @@
   &-sign button,
   &-menu_container button {
     padding: 0.5rem 1rem;
-    color: $white-color;
+    color: #EDEDEDFF;
     background: inherit;
-    font-family: $font-family;
+    font-family: 'Manrope', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
@@ -79,7 +81,7 @@
       align-items: flex-end;
       flex-direction: column;
       text-align: end;
-      background: $color-footer;
+      background: #101010;
       padding: 2rem;
       position: absolute;
       top: 40px;

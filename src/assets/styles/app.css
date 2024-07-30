@@ -1,105 +1,517 @@
-/*
-Error: Undefined variable: "$gray-color".
-        on line 36 of components/_navbar.scss
-        from line 3 of components/_components.scss
-        from line 2 of app.scss
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth; }
 
-Backtrace:
-components/_navbar.scss:36
-components/_components.scss:3
-app.scss:2
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:387:in `run'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
-C:/Ruby31-x64/bin/sass:32:in `load'
-C:/Ruby31-x64/bin/sass:32:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$gray-color\".\A         on line 36 of components/_navbar.scss\A         from line 3 of components/_components.scss\A         from line 2 of app.scss"; }
+a {
+  color: unset;
+  text-decoration: none; }
+
+body {
+  background: var(--color-bg); }
+
+@use "sass:map";
+.security__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem; }
+  .security__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    .security__navbar-links_logo {
+      margin-right: 2rem; }
+      .security__navbar-links_logo img {
+        width: 150px;
+        height: 150px; }
+    .security__navbar-links_container {
+      display: flex;
+      flex-direction: row; }
+  .security__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .security__navbar-sign button.active {
+      background: #636363; }
+    .security__navbar-sign:hover {
+      background-color: #FF8A71;
+      color: #EDEDEDFF; }
+  .security__navbar-links_container p, .security__navbar-menu_container p {
+    color: #EDEDEDFF;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer; }
+  .security__navbar-sign button, .security__navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    color: #EDEDEDFF;
+    background: inherit;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer; }
+  .security__navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative; }
+    .security__navbar-menu svg {
+      cursor: pointer; }
+    .security__navbar-menu_container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      flex-direction: column;
+      text-align: end;
+      background: #101010;
+      padding: 2rem;
+      position: absolute;
+      top: 40px;
+      right: 0;
+      margin-top: 1rem;
+      min-width: 210px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); }
+      .security__navbar-menu_container p {
+        margin: 1rem 0; }
+      .security__navbar-menu_container_links-sign {
+        display: none; }
+
+.gradient__bg {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(90deg, #787777 0%, rgba(36, 36, 36, 0.99) 30%);
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(90deg, #787777 0%, rgba(36, 36, 36, 0.99) 30%);
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, #787777 0%, rgba(36, 36, 36, 0.99) 30%);
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242424', endColorstr='#787777', GradientType=0 );
+  /* ie 10+ */
+  background: -ms-linear-gradient(90deg, #787777 0%, rgba(36, 36, 36, 0.99) 30%);
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, #787777 0%, rgba(36, 36, 36, 0.99) 30%); }
+
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.security__header {
+  display: flex; }
+  .security__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /*margin-right: 5rem;*/ }
+    .security__header-content h1 {
+      font-family: var(--font-family);
+      font-weight: 800;
+      font-size: 62px;
+      line-height: 75px;
+      letter-spacing: -0.04em; }
+    .security__header-content p {
+      font-family: var(--font-family);
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      font-height: 27px;
+      color: var(--color-text);
+      margin-top: 1.5rem; }
+    .security__header-content__people {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 2rem; }
+      .security__header-content__people img {
+        width: 182px;
+        height: 38px; }
+      .security__header-content__people p {
+        margin: 0 0 0 1rem;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 38px;
+        color: #EDEDEDFF;
+        text-align: center; }
+  .security__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .security__header-image img {
+      width: 100%;
+      height: 100%; }
+
+.cta {
+  margin: 0 0 3rem; }
+
+.security__cta {
+  border: 1px solid #EDEDEDFF;
+  color: #EDEDEDFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
+  margin: 4rem;
+  border-radius: 1rem;
+  background: linear-gradient(90deg, #c20001 0%, #5c0100 100%); }
+  .security__cta-content p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #0E0E0E; }
+  .security__cta-content h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+    color: #000000; }
+  .security__cta__contact-heading {
+    margin: 3rem;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column; }
+    .security__cta__contact-heading h1 {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: -0.04em;
+      color: #EDEDEDFF; }
+    .security__cta__contact-heading p {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      color: #848685; }
+  .security__cta-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem; }
+    .security__cta-btn button {
+      background: #000000;
+      color: #FFFFFF;
+      border-radius: 40px;
+      font-family: 'Manrope', sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 30px;
+      padding: 0.5rem 1rem;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      min-width: 150px; }
+  .security__cta__contact__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex; }
+    .security__cta__contact__input input {
+      flex: 2;
+      width: 100%;
+      min-height: 50px;
+      font-family: 'Manrope', sans-serif;
+      font-size: 20px;
+      line-height: 27px;
+      background: #101010;
+      border: 2px solid #101010;
+      padding: 0 1rem;
+      outline: none;
+      color: #EDEDEDFF;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px; }
+    .security__cta__contact__input button {
+      flex: 0.6;
+      width: 100%;
+      min-height: 50px;
+      font-family: 'Manrope', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 27px;
+      background: #636363;
+      color: #EDEDEDFF;
+      cursor: pointer;
+      outline: none;
+      padding: 0 1rem;
+      border: none;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px; }
+
+.security__whatWeDo {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background: linear-gradient(90deg, #636363 0%, #101010 100%);
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25)); }
+  .security__whatWeDo-feature {
+    display: flex; }
+    .security__whatWeDo-feature .security__features-container__feature {
+      margin: 0; }
+      .security__whatWeDo-feature .security__features-container__feature-text {
+        max-width: 700px; }
+  .security__whatWeDo-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem; }
+    .security__whatWeDo-heading h1 {
+      font-size: 34px;
+      line-height: 45px;
+      font-weight: 800;
+      max-width: 510px;
+      font-family: 'Manrope', sans-serif; }
+    .security__whatWeDo-heading p {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 30px;
+      color: #434648;
+      cursor: pointer; }
+  .security__whatWeDo-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    /*gap: 1rem;*/
+    /*display: grid;*/
+    /*gap: 100px;*/
+    /*grid-template-columns: repeat(3, 312px);*/
+    margin-top: 2rem; }
+    .security__whatWeDo-container .security__features-container__feature {
+      flex: 1;
+      margin: 1rem;
+      min-width: 210px;
+      display: unset;
+      flex-direction: column; }
+      .security__whatWeDo-container .security__features-container__feature-text {
+        margin-top: 0.5rem; }
+
+/*.security__whatWeDo-container {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-between;*/
+/*    margin-top: 2rem;*/
+/*}*/
+/*.security__features-container__feature {*/
+/*    width: calc(33.33% - 1rem);*/
+/*    margin-bottom: 1rem;*/
+/*    min-height: 200px; !* Задайте фиксированную высоту, например, 200px *!*/
+/*    box-sizing: border-box; !* Учтите границы и отступы в общей высоте блока *!*/
+/*}*/
+.security__features-container__feature {
+  /*width: calc(33.33% - 1rem); !* или другой расчет ширины в зависимости от ваших предпочтений *!*/
+  /*margin-bottom: 1rem; !* или другой интервал между блоками в зависимости от ваших предпочтений *!*/ }
+
+.security__features-container__feature {
+  /*flex-basis: 0;*/
+  /*flex: 1 1 calc(33.33% - 1rem); !* 33.33% to allow for gaps; adjust as needed *!*/
+  /*margin-bottom: 1rem;*/ }
+
+.security__services {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row; }
+  .security__services-heading {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 5rem; }
+    .security__services-heading h1 {
+      font-family: var(--font-family);
+      font-style: normal;
+      font-weight: 800;
+      font-size: 34px;
+      line-height: 45px; }
+    .security__services-heading p {
+      font-family: var(--font-family);
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 30px;
+      color: #FF8A71;
+      margin-top: 2rem; }
+
+@media screen and (max-width: 700px) {
+  .section__padding {
+    padding: 4rem; }
+
+  .section__margin {
+    margin: 4rem; } }
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 4rem 2rem; }
+
+  .section__margin {
+    margin: 4rem 2rem; } }
+@media screen and (max-width: 1050px) {
+  .security__navbar-links_container {
+    display: none; }
+
+  .security__navbar-menu {
+    display: flex; } }
+@media screen and (max-width: 700px) {
+  .security__navbar {
+    padding: 2rem 4rem; } }
+@media screen and (max-width: 550px) {
+  .security__navbar {
+    padding: 2rem; }
+    .security__navbar-sign {
+      display: none; }
+    .security__navbar-menu_container {
+      top: 20px; }
+      .security__navbar-menu_container_links-sign {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: wrap; }
+      .security__navbar-menu_container button {
+        margin: 0 0.5rem; } }
+@media screen and (max-width: 550px) and (max-width: 990px) {
+  .security__services {
+    flex-direction: column; }
+    .security__services-heading {
+      margin: 0 0 2rem 0; } }
+@media screen and (max-width: 650px) {
+  .security__cta {
+    flex-direction: column; }
+    .security__cta-btn {
+      margin: 2rem 0 0; } }
+@media screen and (max-width: 550px) {
+  .security__cta {
+    margin: 4rem 2rem; }
+    .security__cta-content h3 {
+      font-size: 18px;
+      line-height: 32px; }
+    .security__cta button {
+      font-size: 14px;
+      line-height: 28px; } }
+@media screen and (max-width: 850px) {
+  .security__whatWeDo-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 0; }
+
+  h1 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 500; }
+
+  p {
+    margin-bottom: 1rem; }
+
+  .security__features-container__feature {
+    /*flex: 1 1 calc(50% - 1rem); !* Two services per row on smaller screens *!*/ } }
+@media screen and (max-width: 650px) {
+  .security__whatWeDo-feature .security__features-container__feature {
+    flex-direction: column; }
+
+  .security__whatWeDo-feature .security__features-container__feature-text {
+    margin-top: 0.5rem; }
+
+  .security__whatWeDo-heading h1 {
+    font-size: 24px;
+    line-height: 36px; } }
+@media screen and (max-width: 350px) {
+  .security__whatWeDo-container .security__features-container__feature {
+    /*margin: 1rem 0;*/
+    margin: 0;
+    min-width: 100%; } }
+@media screen and (max-width: 1050px) {
+  .security__header {
+    flex-direction: column; }
+    .security__header-content {
+      margin: 0 0 3rem; } }
+@media screen and (max-width: 650px) {
+  .security__header h1 {
+    font-size: 48px;
+    line-height: 60px; }
+  .security__header p {
+    font-size: 16px;
+    line-height: 24px; }
+  .security__header-content__people {
+    flex-direction: column; }
+    .security__header-content__people__people {
+      margin: 0; }
+    .security__header-content__people__input input,
+    .security__header-content__people__input button {
+      font-size: 16px;
+      line-height: 24px; } }
+@media screen and (max-width: 490px) {
+  .security__header h1 {
+    font-size: 36px;
+    line-height: 48px; }
+  .security__header p {
+    font-size: 14px;
+    line-height: 24px; }
+  .security__header-content__input input, .security__header-content__input button {
+    font-size: 12px;
+    line-height: 16px; } }
+@media screen and (max-width: 850px) {
+  .security__footer-heading h1 {
+    font-size: 44px;
+    line-height: 50px; } }
+@media screen and (max-width: 550px) {
+  .security__footer-heading h1 {
+    font-size: 34px;
+    line-height: 42px; }
+    .security__footer-heading h1-links_div {
+      margin: 1rem 0; }
+    .security__footer-heading h1-btn p {
+      font-size: 14px;
+      line-height: 20px; } }
+@media screen and (max-width: 380px) {
+  .security__footer-heading h1 {
+    font-size: 27px;
+    line-height: 38px; } }
+.section__padding {
+  padding: 4rem 6rem; }
+
+.section__margin {
+  margin: 4rem 6rem; }
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-center 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+@use "sass:map";
+
+/*# sourceMappingURL=app.css.map */

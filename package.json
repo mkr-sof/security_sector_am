@@ -44,7 +44,7 @@
     ]
   },
   "main": "index.js",
-  "repository": "https://github.com/mkr-sof/GPT-3.git",
+  "repository": "https://github.com/mkr-sof/security_sector_react.git",
   "author": "mkr-sof <mkrtchyan_sofia@mail.ru>",
   "license": "MIT"
 }

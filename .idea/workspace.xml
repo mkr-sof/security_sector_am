@@ -5,57 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74716eda-f8c4-4b0f-8be7-806fe2b80aee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/base/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/base/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/_brand.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/_components.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/_feature.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/_form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/layouts/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/layouts/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/layouts/_layouts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/mixins/_animations.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/mixins/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/pages/_cta.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/pages/_home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/pages/_map.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/pages/_pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/pages/_services.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/pages/_what.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/utilities/_media-queries.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/utilities/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/variables/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cta/CTA.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cta/CTA.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cta/cta.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cta/cta.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/feature/Feature.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/feature/Feature.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/Modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/utils/Scroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/features/Features.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/services/Services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/features/featutes.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/services/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/what/What.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/what/What.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/what/what.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/what/what.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translation/LanguageSwitcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/translation/LanguageSwitcher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translation/armenian/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translation/armenian/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translation/english/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translation/english/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translation/russian/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translation/russian/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_navbar.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_navbar.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_cta.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_cta.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_pages.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_pages.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_what.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_what.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/30c4687000a8e0fa1727b4ae30816efcf913a87b/_header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/30c4687000a8e0fa1727b4ae30816efcf913a87b/_header.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/97ba5dc314c96f8cd7e42f90dfaadf021661a8ec/_media-queries.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/97ba5dc314c96f8cd7e42f90dfaadf021661a8ec/_media-queries.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/app.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/pages/_cta.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/pages/_cta.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/pages/_what.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/pages/_what.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/utilities/_media-queries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/utilities/_media-queries.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useMatchMedia.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useMatchMedia.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +210,7 @@
       <workItem from="1721652024425" duration="72000" />
       <workItem from="1721735912011" duration="11804000" />
       <workItem from="1721910450629" duration="9667000" />
-      <workItem from="1722365373058" duration="4456000" />
+      <workItem from="1722365373058" duration="6594000" />
     </task>
     <servers />
   </component>

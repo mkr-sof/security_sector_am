@@ -18,7 +18,7 @@ const mediaQueries = [
         mediaQueryList.forEach(mql => mql.addEventListener('change', handler))
 
         return () => mediaQueryList.forEach(mql => mql.removeEventListener('change', handler))
-    }, [mediaQueryList])
+    }, [mediaQueryList, getMatches])
 
     // return [isMobile, isTablet, isDesktop].reduce((acc, screen, index) => ({
     //     ...acc,
