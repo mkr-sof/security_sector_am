@@ -11,19 +11,19 @@
     /*margin-right: 5rem;*/
 }
 .security__header-content h1{
-    font-family: var(--font-family);
+    /*font-family: var(--font-family);*/
     font-weight: 800;
     font-size: 62px;
     line-height: 75px;
     letter-spacing: -0.04em;
 }
 .security__header-content p{
-    font-family: var(--font-family);
+    /*font-family: var(--font-family);*/
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     font-height: 27px;
-    color: var(--color-text);
+    /*color: var(--color-text);*/
 
     margin-top: 1.5rem;
 }
@@ -42,14 +42,14 @@
 }
 .security__header-content__people p{
     margin: 0 0 0 1rem;
-    font-family: var(--font-family);
+    /*font-family: var(--font-family);*/
     font-weight: 500;
     font-size: 12px;
     line-height: 38px;
     color: #EDEDEDFF;
     text-align: center;
 }
-.gpt__header-image{
+.security__header-image{
     flex: 1;
     display: flex;
     justify-content: center;

@@ -1,7 +1,9 @@
+@import "../variables/variables";
+
 .security__header {
   display: flex;
 
-  &-content {
+  .security__header-content {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -10,7 +12,7 @@
 
     /*margin-right: 5rem;*/
     h1 {
-      font-family: var(--font-family);
+      font-family: $font-family;
       font-weight: 800;
       font-size: 62px;
       line-height: 75px;
@@ -18,12 +20,12 @@
     }
 
     p {
-      font-family: var(--font-family);
+      font-family: $font-family;
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
       font-height: 27px;
-      color: var(--color-text);
+      color: $color-text;
 
       margin-top: 1.5rem;
     }
@@ -43,11 +45,11 @@
 
       p {
         margin: 0 0 0 1rem;
-        font-family: var(--font-family);
+        font-family: $font-family;
         font-weight: 500;
         font-size: 12px;
         line-height: 38px;
-        color: #EDEDEDFF;
+        color: $white-color;
         text-align: center;
       }
     }

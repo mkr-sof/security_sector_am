@@ -1,3 +1,7 @@
+@import "../variables/variables";
+
+
+
 .security__services {
   width: 100%;
   display: flex;
@@ -14,20 +18,20 @@
     text-align: left;
     margin-right: 5rem;
     & h1 {
-      font-family: var(--font-family);
+      font-family: $font-family;
       font-style: normal;
       font-weight: 800;
       font-size: 34px;
       line-height: 45px;
     }
     p {
-      font-family: var(--font-family);
+      font-family: $font-family;
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
       line-height: 30px;
 
-      color: #FF8A71;
+      color: $highlight-color;
       margin-top: 2rem;
     }
   }

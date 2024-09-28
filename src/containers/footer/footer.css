@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
 
-    background: var(--color-footer);
+    /*background: var(--color-footer);*/
 }
 
 .security__footer-heading {
@@ -15,7 +15,7 @@
 }
 
 .security__footer-heading h1 {
-    font-family: var(--font-family);
+    font-family: 'Manrope', sans-serif;
     font-weight: 800;
     font-size: 62px;
     line-height: 75px;
@@ -38,7 +38,7 @@
 
 .security__footer-btn p {
     box-sizing: border-box;
-    font-family: var(--font-family);
+    font-family: 'Manrope', sans-serif;
     font-size: 18px;
     line-height: 21px;
     color: #EDEDEDFF;
@@ -74,7 +74,7 @@
 }
 
 .security__footer-links_logo p {
-    font-family: var(--font-family);
+    font-family: 'Manrope', sans-serif;
     font-size: 12px;
     line-height: 14px;
     color: #EDEDEDFF;
@@ -87,7 +87,7 @@
 }
 
 .security__footer-links_div h4 {
-    font-family: var(--font-family);
+    font-family: 'Manrope', sans-serif;
     font-size: 14px;
     line-height: 16px;
     color: #EDEDEDFF;
@@ -96,7 +96,7 @@
 }
 
 .security__footer-link {
-    font-family: var(--font-family);
+    font-family: 'Manrope', sans-serif;
     font-size: 12px;
     line-height: 14px;
     color: #EDEDEDFF;
@@ -112,7 +112,7 @@
 }
 
 .security__footer-copyright p {
-    font-family: var(--font-family);
+    font-family: 'Manrope', sans-serif;
     font-size: 12px;
     line-height: 14px;
     color: #EDEDEDFF;

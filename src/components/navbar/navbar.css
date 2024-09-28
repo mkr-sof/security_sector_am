@@ -37,7 +37,7 @@
 /*.security__navbar-sign p,*/
 .security__navbar-menu_container p {
     color: #EDEDEDFF;
-    font-family: var(--font-family);
+    /*font-family: var(--font-family);*/
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
@@ -52,7 +52,7 @@
     padding: 0.5rem 1rem;
     color: #ededed;
     background: inherit;
-    font-family: var(--font-family);
+    /*font-family: var(--font-family);*/
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
@@ -80,7 +80,7 @@
     flex-direction: column;
 
     text-align: end;
-    background: var(--color-footer);
+    /*background: var(--color-footer);*/
     padding: 2rem;
     position: absolute;
     top: 40px;

@@ -15,14 +15,14 @@
     margin-right: 5rem;
 }
 .security__services-heading h1{
-    font-family: var(--font-family);
+    /*font-family: var(--font-family);*/
     font-style: normal;
     font-weight: 800;
     font-size: 34px;
     line-height: 45px;
 }
 .security__services-heading p{
-   font-family: var(--font-family);
+   /*font-family: var(--font-family);*/
     font-style: normal;
     font-weight: 500;
     font-size: 16px;

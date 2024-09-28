@@ -1,0 +1,24 @@
+.security__brand {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+   .brand-image img {
+    width: 100%; /* Set the width to 100% of the container */
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 100%; /* Ensure the image does not exceed its natural size */
+    max-height: 100%; /* Ensure the image does not exceed its natural size */
+  }
+}

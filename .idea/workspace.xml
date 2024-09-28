@@ -6,20 +6,41 @@
   <component name="ChangeListManager">
     <list default="true" id="74716eda-f8c4-4b0f-8be7-806fe2b80aee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_brand.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_brand.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_feature.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_feature.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_gradients.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_gradients.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_navbar.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_navbar.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_cta.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_cta.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_pages.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_pages.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_services.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_services.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_what.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_what.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/30c4687000a8e0fa1727b4ae30816efcf913a87b/_footer.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/30c4687000a8e0fa1727b4ae30816efcf913a87b/_footer.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/30c4687000a8e0fa1727b4ae30816efcf913a87b/_header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/30c4687000a8e0fa1727b4ae30816efcf913a87b/_header.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/90c82aa0bb8606f9af3d44cf63910e7f610a9a09/_base.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/90c82aa0bb8606f9af3d44cf63910e7f610a9a09/_base.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/97ba5dc314c96f8cd7e42f90dfaadf021661a8ec/_media-queries.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/97ba5dc314c96f8cd7e42f90dfaadf021661a8ec/_media-queries.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/e59a5480e6d011d23894697943d37fc339bab912/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/e59a5480e6d011d23894697943d37fc339bab912/_variables.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/app.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/components/_brand.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/_brand.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/components/_feature.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/_feature.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/components/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/_gradients.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/layouts/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/layouts/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/layouts/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/pages/_cta.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/pages/_cta.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/pages/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/pages/_services.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/pages/_what.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/pages/_what.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/utilities/_media-queries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/utilities/_media-queries.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useMatchMedia.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useMatchMedia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/variables/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/variables/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/feature/feature.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/feature/feature.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/services/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/services/services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/what/what.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/what/what.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +231,10 @@
       <workItem from="1721652024425" duration="72000" />
       <workItem from="1721735912011" duration="11804000" />
       <workItem from="1721910450629" duration="9667000" />
-      <workItem from="1722365373058" duration="6594000" />
+      <workItem from="1722365373058" duration="7534000" />
+      <workItem from="1722416951873" duration="10189000" />
+      <workItem from="1722588065064" duration="1942000" />
+      <workItem from="1722861274079" duration="45000" />
     </task>
     <servers />
   </component>

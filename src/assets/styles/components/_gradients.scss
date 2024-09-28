@@ -1,3 +1,4 @@
+@import "../variables/variables";
 .gradient__bg
 {
   /* ff 3.6+ */
@@ -19,7 +20,7 @@
   background: linear-gradient(90deg, rgba(120, 119, 119, 1) 0%, rgba(36, 36, 36, 0.99) 30%);
 }
 .gradient__text{
-  background: var(--gradient-text);
+  background: $gradient-text;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

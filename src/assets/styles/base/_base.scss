@@ -1,5 +1,7 @@
 @import "reset";
+@import "../variables/variables";
+
 
 body {
-  background: var(--color-bg);
+  background: $color-bg;
 }

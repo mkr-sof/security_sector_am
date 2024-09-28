@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import {Home, Brand} from './components';
 import {Map, What, Services, Contact} from './containers';
-import './app.css';
+import './assets/styles/app.scss';
 
 const ScrollToTop = () => {
     const { pathname } = useLocation();

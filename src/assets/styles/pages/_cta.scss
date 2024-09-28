@@ -1,10 +1,14 @@
+@import "../variables/variables";
+
+
+
 .cta {
   margin: 0 0 3rem;
 }
 
 .security__cta {
-  border: 1px solid #EDEDEDFF;
-  color: #EDEDEDFF;
+  border: 1px solid $white-color;
+  color: $white-color;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,11 +16,11 @@
   padding: 2rem;
   margin: 4rem;
   border-radius: 1rem;
-  background: linear-gradient(90deg, rgba(194, 0, 1, 1) 0%, rgba(92, 1, 0, 1) 100%);
+  background: $gradient-bar;
 
   &-content {
     p {
-      font-family: 'Manrope', sans-serif;
+      font-family: $font-family;
       font-size: 12px;
       font-weight: 500;
       line-height: 30px;
@@ -24,11 +28,11 @@
     }
 
     h3 {
-      font-family: 'Manrope', sans-serif;
+      font-family: $font-family;
       font-weight: 800;
       font-size: 24px;
       line-height: 45px;
-      color: #000000;
+      color: $black-color;
     }
   }
 
@@ -41,20 +45,20 @@
     flex-direction: column;
 
     h1 {
-      font-family: 'Manrope', sans-serif;
+      font-family: $font-family;
       font-weight: 800;
       font-size: 18px;
       line-height: 24px;
       letter-spacing: -0.04em;
-      color: #EDEDEDFF;
+      color: $white-color;
     }
 
     p {
-      font-family: 'Manrope', sans-serif;
+      font-family: $font-family;
       font-weight: 500;
       font-size: 14px;
       line-height: 24px;
-      color: #848685;
+      color: $color-text;
     }
   }
 
@@ -65,10 +69,10 @@
     margin-left: 2rem;
 
     button {
-      background: #000000;
-      color: #FFFFFF;
+      background: $black-color;
+      color: $white-color;
       border-radius: 40px;
-      font-family: 'Manrope', sans-serif;
+      font-family: $font-family;
       font-weight: bold;
       font-size: 18px;
       line-height: 30px;
@@ -89,14 +93,14 @@
       flex: 2;
       width: 100%;
       min-height: 50px;
-      font-family: 'Manrope', sans-serif;
+      font-family: $font-family;
       font-size: 20px;
       line-height: 27px;
-      background: #101010;
-      border: 2px solid #101010;
+      background: $black-color;
+      border: 2px solid $black-color;
       padding: 0 1rem;
       outline: none;
-      color: #EDEDEDFF;
+      color: $white-color;
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px;
     }
@@ -105,12 +109,12 @@
       flex: 0.6;
       width: 100%;
       min-height: 50px;
-      font-family: 'Manrope', sans-serif;
+      font-family: $font-family;
       font-weight: bold;
       font-size: 20px;
       line-height: 27px;
-      background: #636363;
-      color: #EDEDEDFF;
+      background: $gray-color;
+      color: $white-color;
       cursor: pointer;
       outline: none;
       padding: 0 1rem;

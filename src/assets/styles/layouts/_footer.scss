@@ -1,0 +1,123 @@
+@import "../variables/variables";
+
+
+
+.security__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: $color-footer;
+
+  &-heading {
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 3rem;
+
+    h1 {
+      font-family: $font-family;
+      font-weight: 800;
+      font-size: 62px;
+      line-height: 75px;
+      text-align: center;
+      letter-spacing: -0.04em;
+    }
+  }
+
+  &-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+    border: 1px solid $white-color;
+    text-align: center;
+
+    margin-bottom: 10rem;
+    cursor: pointer;
+
+    p {
+      box-sizing: border-box;
+      font-family: $font-family;
+      font-size: 18px;
+      line-height: 21px;
+      color: $white-color;
+      word-spacing: 2px;
+    }
+  }
+
+  &-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    width: 100%;
+    text-align: left;
+
+    div {
+      width: 250px;
+      margin: 1rem;
+    }
+
+    &_logo {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 235px;
+        height: 70px;
+
+        margin-bottom: 1rem;
+
+        p {
+          font-family: $font-family;
+          font-size: 12px;
+          line-height: 14px;
+          color: $white-color;
+        }
+      }
+    }
+
+    &_div {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      h4 {
+        font-family: $font-family;
+        font-size: 14px;
+        line-height: 16px;
+        color: $white-color;
+
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  &-link {
+    font-family: $font-family;
+    font-size: 12px;
+    line-height: 14px;
+    color: $white-color;
+
+    margin: 0.5rem 0;
+    cursor: pointer;
+  }
+  &-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+    p {
+      font-family: $font-family;
+      font-size: 12px;
+      line-height: 14px;
+      color: $white-color;
+    }
+  }
+}
+
+
+
+

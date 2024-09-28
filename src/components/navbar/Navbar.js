@@ -44,24 +44,25 @@ const Navbar = () => {
                 <div className="security__navbar-links_logo">
                     <img src={logo} alt="logo"/>
                 </div>
-                {!isMobile || !isTablet || !isDesktop && (
+                {/*{!isMobile || !isTablet || !isDesktop && (*/}
                     <div className="security__navbar-links_container">
                     <Menu t = {t} />
                 </div>
-                    )}
+                    {/*)}*/}
             </div>
-            {!isMobile && (
+            {/*{!isMobile && (*/}
             <LanguageSwitcher
                 selectedLanguage={selectedLanguage}
                 onLanguageChange={handleLanguageChange}
             />
-            )}
+            {/*)}*/}
             <div className="security__navbar-menu">
                 {toggleMenu
                     ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)}/>
                     : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
                 }
-                {toggleMenu && (isMobile || isTablet || isDesktop) && (
+                {/*{toggleMenu && (isMobile || isTablet || isDesktop) && (*/}
+                {toggleMenu && (
                     <div className="security__navbar-menu_container scale-up-center">
                         <div className="security__navbar-menu_container-links">
                             <Menu t = {t} />
