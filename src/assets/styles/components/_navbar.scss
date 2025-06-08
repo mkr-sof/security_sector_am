@@ -31,13 +31,16 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
     button.active {
       background: $gray-color;
     }
+
     &:hover {
-            color: $white-color;
-     }
+      color: $white-color;
+    }
   }
+
   &-links_container p,
   &-menu_container p {
     color: $white-color;
@@ -48,7 +51,16 @@
     text-transform: capitalize;
     margin: 0 1rem;
     cursor: pointer;
+
+    &:hover {
+      color: darken($highlight-color, 10%);
+    }
+
+    a.active {
+      color: darken($highlight-color, 10%);
+    }
   }
+
   &-sign button,
   &-menu_container button {
     padding: 0.5rem 1rem;
@@ -62,7 +74,19 @@
     border: 0;
     outline: none;
     cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      background: darken($highlight-color, 10%);
+      color: $black-color;
+    }
+    &.active {
+      color: $black-color;
+      background: $highlight-color;
+    }
+    
   }
+
   &-menu {
     margin-left: 1rem;
     display: none;
@@ -71,6 +95,7 @@
     svg {
       cursor: pointer;
     }
+
     &_container {
       display: flex;
       justify-content: flex-end;
@@ -89,6 +114,14 @@
 
       p {
         margin: 1rem 0;
+
+        &:hover {
+          color: $highlight-color;
+        }
+
+        a.active {
+          color: darken($highlight-color, 10%);
+        }
       }
 
       &_links-sign {

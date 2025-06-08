@@ -1,0 +1,29 @@
+@import "../variables/variables";
+
+.heading-xl {
+  font-family: $font-family;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+}
+
+.heading-lg {
+  font-family: $font-family;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+}
+
+.text-md {
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.text-sm {
+  font-family: $font-family;
+  font-size: 12px;
+  line-height: 14px;
+}

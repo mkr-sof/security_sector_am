@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from '../../assets/img/Security_logo.png';
 // import './navbar.css';
@@ -17,12 +17,12 @@ const Menu = ({ t }) => {
 
     return (
     <>
-        <p><Link to="/">{t('navbar.home')}</Link></p>
-        <p><Link to="/what">{t('navbar.what')}</Link></p>
-        <p><Link to="/services">{t('navbar.services')}</Link></p>
-        <p><Link to="/brand">{t('navbar.friends')}</Link></p>
-        <p><Link to="/map">{t('navbar.map')}</Link></p>
-        <p><Link to="/contact">{t('navbar.contact')}</Link></p>
+        <p><NavLink to="/">{t('navbar.home')}</NavLink></p>
+        <p><NavLink to="/what">{t('navbar.what')}</NavLink></p>
+        <p><NavLink to="/services">{t('navbar.services')}</NavLink></p>
+        <p><NavLink to="/brand">{t('navbar.friends')}</NavLink></p>
+        <p><NavLink to="/map">{t('navbar.map')}</NavLink></p>
+        <p><NavLink to="/contact">{t('navbar.contact')}</NavLink></p>
     </>
     );
 }

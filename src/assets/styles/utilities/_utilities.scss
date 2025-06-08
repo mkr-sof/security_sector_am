@@ -1,5 +1,7 @@
 @import "media-queries";
 @import "../mixins/mixins";
+@import "typography";
+@import "layout";
 
 .section__padding {
   padding: 4rem 6rem;
