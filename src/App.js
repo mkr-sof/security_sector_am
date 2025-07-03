@@ -19,7 +19,7 @@ const App = () => {
 
     return (
         <>
-        <Router>
+        <Router basename="/security_sector_react">
         <ScrollToTop />
             <Routes>
                 <Route path="/" element={ <Home /> } />
