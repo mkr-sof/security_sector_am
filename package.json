@@ -20,7 +20,7 @@
     "sass": "^1.77.8",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://mkr-sof.github.io/security_sector_react",
+  "homepage": "https://mkr-sof.github.io/security_sector_am/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -48,7 +48,7 @@
     ]
   },
   "main": "index.js",
-  "repository": "https://github.com/mkr-sof/security_sector_react.git",
+  "repository": "https://github.com/mkr-sof/security_sector_am.git",
   "author": "mkr-sof <mkrtchyan_sofia@mail.ru>",
   "license": "MIT",
   "devDependencies": {
