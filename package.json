@@ -20,10 +20,13 @@
     "sass": "^1.77.8",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://mkr-sof.github.io/<repository-name>",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -47,5 +50,8 @@
   "main": "index.js",
   "repository": "https://github.com/mkr-sof/security_sector_react.git",
   "author": "mkr-sof <mkrtchyan_sofia@mail.ru>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
