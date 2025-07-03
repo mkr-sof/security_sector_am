@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="74716eda-f8c4-4b0f-8be7-806fe2b80aee" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_brand.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_brand.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_feature.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_feature.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_gradients.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_gradients.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_navbar.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/055523a691a325fe6a69850c5f619d667ab1a493/_navbar.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_cta.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_cta.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_services.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_services.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_what.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/2994bf3dfd898893742d756d6ad46d28a0063d7a/_what.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/30c4687000a8e0fa1727b4ae30816efcf913a87b/_footer.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/30c4687000a8e0fa1727b4ae30816efcf913a87b/_footer.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/30c4687000a8e0fa1727b4ae30816efcf913a87b/_header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/30c4687000a8e0fa1727b4ae30816efcf913a87b/_header.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/90c82aa0bb8606f9af3d44cf63910e7f610a9a09/_base.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/90c82aa0bb8606f9af3d44cf63910e7f610a9a09/_base.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/97ba5dc314c96f8cd7e42f90dfaadf021661a8ec/_media-queries.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/97ba5dc314c96f8cd7e42f90dfaadf021661a8ec/_media-queries.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/.sass-cache/e59a5480e6d011d23894697943d37fc339bab912/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/.sass-cache/e59a5480e6d011d23894697943d37fc339bab912/_variables.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/app.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/components/_brand.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/_brand.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/components/_feature.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/_feature.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/components/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/_gradients.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/layouts/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/layouts/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/layouts/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/pages/_cta.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/pages/_cta.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/pages/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/pages/_services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/pages/_what.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/pages/_what.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/utilities/_media-queries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/utilities/_media-queries.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/variables/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/variables/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/feature/feature.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/feature/feature.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/services/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/services/services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/what/what.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/what/what.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2YPovoQvvZBu7VPlIJrApuaQr0F" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.Features.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Worckspace/security_sector_backend&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Debug&quot;,
+    &quot;npm.test.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 242.19890.18\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Worckspace\security_sector_react\src\assets" />
+      <recent name="D:\Worckspace\gpt_3\src\assets" />
+      <recent name="D:\Worckspace\gpt_3\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Worckspace\security_sector_react\src\assets\img" />
+      <recent name="D:\Worckspace\security_sector_react\src\assets" />
+      <recent name="D:\Worckspace\gpt_3\src\components\pages\brandPages\bosch" />
+      <recent name="D:\Worckspace\gpt_3\src\components\pages\brandPages\cicso" />
+      <recent name="D:\Worckspace\gpt_3\src\components\pages\brandPages\hikVision" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.Features.js">
+    <configuration name="Features.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/containers/features/Features.js" working-dir="$PROJECT_DIR$/src/containers/features">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Features.js" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-eef0733dfcaf-JavaScript-WS-242.19890.18" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74716eda-f8c4-4b0f-8be7-806fe2b80aee" name="Changes" comment="" />
+      <created>1700436812128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700436812128</updated>
+      <workItem from="1700436813796" duration="7993000" />
+      <workItem from="1700555863741" duration="4528000" />
+      <workItem from="1700760196692" duration="9443000" />
+      <workItem from="1700833946070" duration="5317000" />
+      <workItem from="1700851731951" duration="362000" />
+      <workItem from="1701077239796" duration="3740000" />
+      <workItem from="1701123729472" duration="2629000" />
+      <workItem from="1701197095061" duration="3266000" />
+      <workItem from="1701521153239" duration="225000" />
+      <workItem from="1702026366233" duration="20938000" />
+      <workItem from="1702217966904" duration="1378000" />
+      <workItem from="1702386011908" duration="899000" />
+      <workItem from="1702665439434" duration="417000" />
+      <workItem from="1702679816984" duration="1350000" />
+      <workItem from="1703701879364" duration="4348000" />
+      <workItem from="1703749409784" duration="6689000" />
+      <workItem from="1703958113051" duration="1269000" />
+      <workItem from="1704821591269" duration="4287000" />
+      <workItem from="1705829617393" duration="1496000" />
+      <workItem from="1708265180190" duration="310000" />
+      <workItem from="1708266956637" duration="589000" />
+      <workItem from="1708362148731" duration="13897000" />
+      <workItem from="1708812093813" duration="4057000" />
+      <workItem from="1709456562411" duration="16858000" />
+      <workItem from="1709557283011" duration="200000" />
+      <workItem from="1710102844778" duration="198000" />
+      <workItem from="1710153357036" duration="290000" />
+      <workItem from="1710158604499" duration="16000" />
+      <workItem from="1711454255226" duration="4661000" />
+      <workItem from="1711463462711" duration="16251000" />
+      <workItem from="1711650479962" duration="61000" />
+      <workItem from="1712122319777" duration="15100000" />
+      <workItem from="1712161526953" duration="19000" />
+      <workItem from="1712608038651" duration="1212000" />
+      <workItem from="1712681693299" duration="3093000" />
+      <workItem from="1712846866945" duration="185000" />
+      <workItem from="1713099802720" duration="14580000" />
+      <workItem from="1713116772215" duration="725000" />
+      <workItem from="1713174698840" duration="35000" />
+      <workItem from="1713200885373" duration="770000" />
+      <workItem from="1713251041597" duration="1167000" />
+      <workItem from="1713331627802" duration="4478000" />
+      <workItem from="1713368499022" duration="1138000" />
+      <workItem from="1713372868611" duration="2012000" />
+      <workItem from="1713425839001" duration="165000" />
+      <workItem from="1713513877404" duration="3779000" />
+      <workItem from="1713537513084" duration="9610000" />
+      <workItem from="1713712612541" duration="26000" />
+      <workItem from="1713776465408" duration="6859000" />
+      <workItem from="1714117620991" duration="4554000" />
+      <workItem from="1714332924343" duration="661000" />
+      <workItem from="1714370653152" duration="9076000" />
+      <workItem from="1714501109334" duration="945000" />
+      <workItem from="1714685678743" duration="189000" />
+      <workItem from="1714731111138" duration="33000" />
+      <workItem from="1717494199648" duration="3116000" />
+      <workItem from="1718362064121" duration="88000" />
+      <workItem from="1718362177093" duration="585000" />
+      <workItem from="1719308240381" duration="1515000" />
+      <workItem from="1719379039867" duration="594000" />
+      <workItem from="1720261200613" duration="312000" />
+      <workItem from="1720535506779" duration="4458000" />
+      <workItem from="1720641730650" duration="1841000" />
+      <workItem from="1720644101963" duration="1534000" />
+      <workItem from="1720700910028" duration="2420000" />
+      <workItem from="1720779267681" duration="23000" />
+      <workItem from="1720946860826" duration="1474000" />
+      <workItem from="1720950901250" duration="3887000" />
+      <workItem from="1720973881156" duration="16915000" />
+      <workItem from="1721045833359" duration="335000" />
+      <workItem from="1721489631333" duration="14984000" />
+      <workItem from="1721506261140" duration="4034000" />
+      <workItem from="1721581997547" duration="1362000" />
+      <workItem from="1721652024425" duration="72000" />
+      <workItem from="1721735912011" duration="11804000" />
+      <workItem from="1721910450629" duration="9667000" />
+      <workItem from="1722365373058" duration="7534000" />
+      <workItem from="1722416951873" duration="10189000" />
+      <workItem from="1722588065064" duration="1942000" />
+      <workItem from="1722861274079" duration="45000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

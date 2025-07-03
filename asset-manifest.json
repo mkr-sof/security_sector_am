@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/security_sector_am/static/css/main.49a64d64.css",
+    "main.js": "/security_sector_am/static/js/main.6648b4e7.js",
+    "static/media/Security__.png": "/security_sector_am/static/media/Security__.9cd438817f999aeb9ed7.png",
+    "static/media/Security_logo.png": "/security_sector_am/static/media/Security_logo.4815d9952c49843f0ea9.png",
+    "static/media/security.png": "/security_sector_am/static/media/security.3f5634bab17f521231b7.png",
+    "static/media/bosch.png": "/security_sector_am/static/media/bosch.d6916cac3517e11604f6.png",
+    "static/media/cisco.png": "/security_sector_am/static/media/cisco.f1380dab153c8e5f5048.png",
+    "static/media/hikVision.png": "/security_sector_am/static/media/hikVision.208c8cf85d2658b3548d.png",
+    "static/media/people.png": "/security_sector_am/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/logo.svg": "/security_sector_am/static/media/logo.5114679faa0cce74946769ded97f1c89.svg",
+    "index.html": "/security_sector_am/index.html",
+    "static/media/getFetch.cjs": "/security_sector_am/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.49a64d64.css.map": "/security_sector_am/static/css/main.49a64d64.css.map",
+    "main.6648b4e7.js.map": "/security_sector_am/static/js/main.6648b4e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49a64d64.css",
+    "static/js/main.6648b4e7.js"
+  ]
+}
