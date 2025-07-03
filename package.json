@@ -20,7 +20,7 @@
     "sass": "^1.77.8",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://mkr-sof.github.io/<repository-name>",
+  "homepage": "https://mkr-sof.github.io/security_sector_react",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
