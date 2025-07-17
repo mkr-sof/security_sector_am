@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/security_sector_am/static/css/main.49a64d64.css",
-    "main.js": "/security_sector_am/static/js/main.55974028.js",
+    "main.css": "/security_sector_am/static/css/main.b532089d.css",
+    "main.js": "/security_sector_am/static/js/main.db5533a5.js",
     "static/media/Security__.png": "/security_sector_am/static/media/Security__.9cd438817f999aeb9ed7.png",
     "static/media/Security_logo.png": "/security_sector_am/static/media/Security_logo.4815d9952c49843f0ea9.png",
     "static/media/security.png": "/security_sector_am/static/media/security.3f5634bab17f521231b7.png",
@@ -12,11 +12,11 @@
     "static/media/logo.svg": "/security_sector_am/static/media/logo.5114679faa0cce74946769ded97f1c89.svg",
     "index.html": "/security_sector_am/index.html",
     "static/media/getFetch.cjs": "/security_sector_am/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.49a64d64.css.map": "/security_sector_am/static/css/main.49a64d64.css.map",
-    "main.55974028.js.map": "/security_sector_am/static/js/main.55974028.js.map"
+    "main.b532089d.css.map": "/security_sector_am/static/css/main.b532089d.css.map",
+    "main.db5533a5.js.map": "/security_sector_am/static/js/main.db5533a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.49a64d64.css",
-    "static/js/main.55974028.js"
+    "static/css/main.b532089d.css",
+    "static/js/main.db5533a5.js"
   ]
 }
