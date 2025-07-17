@@ -10,7 +10,7 @@ const Services = () => {
 
     return (
         <Wrapper>
-        <div className="security__features section__padding" id="services">
+        <div className="security__features section__margin" id="services">
             <div className="security__services-heading">
                 <h1 className="gradient__text">{t('services.title')}</h1>
                 <p>{t('services.description')}</p>

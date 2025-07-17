@@ -1,5 +1,10 @@
 .security__header {
+  z-index: -1000;
   display: flex;
+  margin: 4rem 2rem;
+  padding: 4rem 2rem;
+  background: $gradient-bg;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 
   .security__header-content {
     flex: 1;
@@ -10,8 +15,11 @@
     h1 {
       @extend .heading-xl;
     }
-
-    p {
+ p {
+      @extend .text-md;
+      color: $color-subtext;
+      cursor: pointer;
+      text-align: center;
       font-family: $font-family;
       font-weight: 400;
       font-size: 20px;

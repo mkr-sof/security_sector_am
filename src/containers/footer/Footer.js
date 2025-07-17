@@ -33,13 +33,13 @@ const Footer = () => {
 
     return (
         <div className="security__footer section__padding">
-           <div className="security__footer-heading">
+           {/* <div className="security__footer-heading">
                <h1 className="gradient__text">Welcome Tomorrow's Innovations Today</h1>
            </div>
 
             <div className="security__footer-btn">
                 <p>Request Early</p>
-            </div>
+            </div> */}
 
             <div className="security__footer-links">
                 <div className="security__footer-links_logo">

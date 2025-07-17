@@ -7,7 +7,7 @@ import {useTranslation} from "react-i18next";
 const Header = () => {
     const { t } = useTranslation();
     return (
-        <div className="security__header section__padding" id="home">
+        <div className="security__header section__margin" id="home">
             <div className="security__header-content">
                 <h1 className="gradient__text">{t('header.welcomeMessage')}</h1>
                 <p>{t('header.introText')}</p>

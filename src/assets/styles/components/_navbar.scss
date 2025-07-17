@@ -31,7 +31,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
     button.active {
       background: $gray-color;
     }
@@ -125,8 +124,19 @@
       }
 
       &_links-sign {
-        display: none;
+        display: flex;
       }
     }
   }
-}
+
+}  
+.security__navbar_language-switcher-desktop {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+     button {
+        margin: 0.5rem;
+        padding: 0.5rem;
+      }
+
+  }
